@@ -1,99 +1,74 @@
-import bcrypt from 'bcryptjs';
-import { Router } from 'express';
-import {
-  SESSION_SECONDS,
-  clearSessionCookie,
-  newCsrfToken,
-  requireAuth,
-  setSessionCookie,
-  signSession,
-} from '../middleware/auth.js';
-import { loginLimiter } from '../middleware/rateLimit.js';
+import jwt from 'jsonwebtoken';
+import { randomBytes, timingSafeEqual } from 'node:crypto';
+import { env } from '../config/env.js';
 import { AdminUser } from '../models/AdminUser.js';
 import { asyncHandler } from '../utils/asyncHandler.js';
 import { HttpError } from '../utils/httpError.js';
-import { parseLogin, parsePasswordChange } from '../utils/validators.js';
 
-const router = Router();
-const MAX_FAILED = 5;
-const LOCK_MS = 15 * 60 * 1000;
-const BCRYPT_COST = 12;
+export const SESSION_SECONDS = 2 * 60 * 60; // session de 2 h, non prolongée
+// Le préfixe __Host- impose Secure + Path=/ + aucun Domain : cookie lié strictement à ce serveur.
+export const COOKIE_NAME = env.isProd ? '__Host-gnah_session' : 'gnah_session';
 
-router.use((_req, res, next) => {
-  res.set('Cache-Control', 'no-store');
+const SAFE_METHODS = new Set(['GET', 'HEAD', 'OPTIONS']);
+
+const cookieOptions = () => ({
+  httpOnly: true,
+  secure: env.isProd,
+  sameSite: env.cookieSameSite,
+  path: '/',
+});
+
+const safeEqual = (a, b) => {
+  const A = Buffer.from(String(a));
+  const B = Buffer.from(String(b));
+  return A.length === B.length && timingSafeEqual(A, B);
+};
+
+export const newCsrfToken = () => randomBytes(24).toString('hex');
+
+export function signSession(user, csrf) {
+  return jwt.sign({ sub: String(user._id), tv: user.tokenVersion, csrf }, env.jwtSecret, {
+    algorithm: 'HS256',
+    expiresIn: SESSION_SECONDS,
+  });
+}
+
+export function setSessionCookie(res, token) {
+  res.cookie(COOKIE_NAME, token, { ...cookieOptions(), maxAge: SESSION_SECONDS * 1000 });
+}
+
+export function clearSessionCookie(res) {
+  res.clearCookie(COOKIE_NAME, cookieOptions());
+}
+
+/** Toute requête qui modifie des données doit venir d'une origine autorisée (anti-CSRF, niveau 1). */
+export function originGuard(req, res, next) {
+  if (SAFE_METHODS.has(req.method)) return next();
+  const origin = req.get('origin');
+  if (!origin || !env.origins.includes(origin)) return next(new HttpError(403, 'Origine non autorisée.'));
+  return next();
+}
+
+/** Session valide + jeton CSRF (anti-CSRF, niveau 2) pour les requêtes qui modifient des données. */
+export const requireAuth = asyncHandler(async (req, res, next) => {
+  const token = req.cookies?.[COOKIE_NAME];
+  if (!token) throw new HttpError(401, 'Authentification requise.');
+
+  let payload;
+  try {
+    payload = jwt.verify(token, env.jwtSecret, { algorithms: ['HS256'] });
+  } catch {
+    throw new HttpError(401, 'Session expirée. Reconnectez-vous.');
+  }
+
+  const user = await AdminUser.findById(payload.sub).select('email tokenVersion');
+  if (!user || user.tokenVersion !== payload.tv) throw new HttpError(401, 'Session invalide. Reconnectez-vous.');
+
+  if (!SAFE_METHODS.has(req.method)) {
+    const sent = req.get('x-csrf-token');
+    if (!sent || !safeEqual(sent, payload.csrf)) throw new HttpError(403, 'Jeton CSRF invalide.');
+  }
+
+  req.admin = { id: String(user._id), email: user.email, csrf: payload.csrf };
   next();
 });
-
-// Empreinte factice : le temps de réponse ne révèle pas si l'e-mail existe.
-let dummyHash;
-const getDummyHash = async () => (dummyHash ??= await bcrypt.hash('gnah-dummy-password', BCRYPT_COST));
-
-router.post(
-  '/login',
-  loginLimiter,
-  asyncHandler(async (req, res) => {
-    const { email, password } = parseLogin(req.body);
-    const user = await AdminUser.findOne({ email }).select('+passwordHash');
-    const now = Date.now();
-
-    if (user?.lockUntil && user.lockUntil.getTime() > now) {
-      const retry = Math.ceil((user.lockUntil.getTime() - now) / 1000);
-      res.set('Retry-After', String(retry));
-      throw new HttpError(429, 'Trop de tentatives. Réessayez dans quelques minutes.', { retryAfterSeconds: retry });
-    }
-
-    const ok = await bcrypt.compare(password, user?.passwordHash ?? (await getDummyHash()));
-    if (!user || !ok) {
-      if (user) {
-        user.failedAttempts += 1;
-        if (user.failedAttempts >= MAX_FAILED) {
-          user.lockUntil = new Date(now + LOCK_MS);
-          user.failedAttempts = 0;
-        }
-        await user.save();
-      }
-      throw new HttpError(401, 'Identifiants invalides.');
-    }
-
-    user.failedAttempts = 0;
-    user.lockUntil = null;
-    user.lastLoginAt = new Date();
-    await user.save();
-
-    const csrf = newCsrfToken();
-    setSessionCookie(res, signSession(user, csrf));
-    res.json({ admin: { email: user.email }, csrfToken: csrf, expiresInSeconds: SESSION_SECONDS });
-  })
-);
-
-// Restaure la session après un rechargement de page (le jeton CSRF vit en mémoire côté navigateur).
-router.get('/me', requireAuth, (req, res) => {
-  res.json({ admin: { email: req.admin.email }, csrfToken: req.admin.csrf });
-});
-
-router.post('/logout', (_req, res) => {
-  clearSessionCookie(res);
-  res.json({ ok: true });
-});
-
-router.put(
-  '/password',
-  requireAuth,
-  loginLimiter,
-  asyncHandler(async (req, res) => {
-    const { currentPassword, newPassword } = parsePasswordChange(req.body);
-    const user = await AdminUser.findById(req.admin.id).select('+passwordHash');
-    if (!user || !(await bcrypt.compare(currentPassword, user.passwordHash))) {
-      throw new HttpError(400, 'Mot de passe actuel incorrect.');
-    }
-    user.passwordHash = await bcrypt.hash(newPassword, BCRYPT_COST);
-    user.tokenVersion += 1; // invalide toutes les autres sessions
-    await user.save();
-
-    const csrf = newCsrfToken();
-    setSessionCookie(res, signSession(user, csrf));
-    res.json({ ok: true, csrfToken: csrf });
-  })
-);
-
-export default router;
