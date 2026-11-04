@@ -1,1 +1,2051 @@
-
+{
+  "blocks": {
+    "site": {
+      "name": "Groupe Ndoye Africa Holding",
+      "short": "G.N.A.H",
+      "phone": "+221 77 939 84 84",
+      "whatsapp": "221779398484",
+      "email": "Contact@groupendoyefrica.com",
+      "address_fr": "Cité Baobab, Sénégal",
+      "social": {
+        "facebook": "https://www.facebook.com/groupendoyeafricaholding",
+        "instagram": "https://www.instagram.com/assanedesignconception",
+        "tiktok": "https://www.tiktok.com/@assane.design.con",
+        "threads": "https://www.threads.net/@assanedesignconception",
+        "linkedin": "https://www.linkedin.com/company/groupendoyeafricaholding"
+      },
+      "waMsg": {
+        "fr": "Bonjour Groupe Ndoye Africa Holding, je souhaite avoir plus d'informations.",
+        "en": "Hello Groupe Ndoye Africa Holding, I would like more information.",
+        "es": "Hola Groupe Ndoye Africa Holding, me gustaría tener más información.",
+        "de": "Hallo Groupe Ndoye Africa Holding, ich hätte gerne mehr Informationen.",
+        "zh": "您好，Groupe Ndoye Africa Holding，我想了解更多信息。"
+      }
+    },
+    "tagline": {
+      "fr": "Bâtir l'Afrique de demain",
+      "en": "Building tomorrow's Africa",
+      "es": "Construyendo el África del mañana",
+      "de": "Das Afrika von morgen bauen",
+      "zh": "建设明日非洲"
+    },
+    "subtitle": {
+      "fr": "L'immobilier au vrai sens du mot",
+      "en": "Real estate in the truest sense",
+      "es": "Bienes raíces en el verdadero sentido",
+      "de": "Immobilien im wahrsten Sinne",
+      "zh": "真正意义上的房地产"
+    },
+    "stats": [
+      {
+        "val": "10+",
+        "fr": "Années d'expérience",
+        "en": "Years of experience",
+        "es": "Años de experiencia",
+        "de": "Jahre Erfahrung",
+        "zh": "年经验"
+      },
+      {
+        "val": "7",
+        "fr": "Partenaires mondiaux",
+        "en": "Global partners",
+        "es": "Socios mundiales",
+        "de": "Weltweite Partner",
+        "zh": "全球合作伙伴"
+      },
+      {
+        "val": "300",
+        "fr": "Villas Yaye Dia",
+        "en": "Yaye Dia Villas",
+        "es": "Villas Yaye Dia",
+        "de": "Yaye Dia Villen",
+        "zh": "Yaye Dia别墅"
+      },
+      {
+        "val": "11",
+        "fr": "Pays africains partenaires",
+        "en": "African partner countries",
+        "es": "Países socios africanos",
+        "de": "Afrikanische Partnerländer",
+        "zh": "非洲合作国家"
+      }
+    ],
+    "operations": [
+      {
+        "country": "Côte d'Ivoire",
+        "fr": "Port lagunaire de Dabou",
+        "en": "Dabou lagoon port",
+        "es": "Puerto lagunar de Dabou",
+        "de": "Lagunenhafen Dabou",
+        "zh": "达布湖港",
+        "value": "$1,7 Mrd",
+        "type": "BOT"
+      },
+      {
+        "country": "Nigeria",
+        "fr": "Autoroute Abuja–Lagos 467 km",
+        "en": "Abuja–Lagos 467 km Highway",
+        "es": "Autopista Abuja–Lagos 467 km",
+        "de": "Autobahn Abuja–Lagos 467 km",
+        "zh": "阿布贾-拉各斯467公里高速公路",
+        "value": "$5,7 Mrd",
+        "type": "BOT"
+      },
+      {
+        "country": "Côte d'Ivoire",
+        "fr": "Programme immobilier Eden",
+        "en": "Eden real estate programme",
+        "es": "Programa inmobiliario Eden",
+        "de": "Immobilienprogramm Eden",
+        "zh": "伊甸园房地产计划",
+        "value": "$700M",
+        "type": "Public/Privé"
+      },
+      {
+        "country": "Gabon",
+        "fr": "Centre de réinsertion sociale",
+        "en": "Social reintegration centre",
+        "es": "Centro de reinserción social",
+        "de": "Reintegrationszentrum",
+        "zh": "社会再融入中心",
+        "value": "$70M",
+        "type": "État"
+      },
+      {
+        "country": "Côte d'Ivoire",
+        "fr": "Projets privés résidentiels",
+        "en": "Private residential projects",
+        "es": "Proyectos privados residenciales",
+        "de": "Private Wohnprojekte",
+        "zh": "私人住宅项目",
+        "value": "$20M",
+        "type": "Privé"
+      }
+    ],
+    "investCapacity": [
+      {
+        "range": "$50M — $6 Mrd",
+        "fr": "Projets d'État",
+        "en": "State Projects",
+        "es": "Proyectos de Estado",
+        "de": "Staatliche Projekte",
+        "zh": "国家项目"
+      },
+      {
+        "range": "$30M — $450M",
+        "fr": "Projets Public/Privé",
+        "en": "Public/Private",
+        "es": "Público/Privado",
+        "de": "Öffentlich/Privat",
+        "zh": "公私合营项目"
+      },
+      {
+        "range": "$3M — $20M",
+        "fr": "Projets Privés",
+        "en": "Private Projects",
+        "es": "Proyectos Privados",
+        "de": "Private Projekte",
+        "zh": "私人项目"
+      }
+    ],
+    "commitments": [
+      {
+        "icon": "target",
+        "fr": {
+          "title": "Excellence & Qualité",
+          "desc": "Chaque projet GNAH est réalisé selon les plus hauts standards de qualité."
+        },
+        "en": {
+          "title": "Excellence & Quality",
+          "desc": "Every GNAH project is completed to the highest quality standards."
+        },
+        "es": {
+          "title": "Excelencia y Calidad",
+          "desc": "Cada proyecto de GNAH se realiza según los más altos estándares."
+        },
+        "de": {
+          "title": "Exzellenz & Qualität",
+          "desc": "Jedes GNAH-Projekt wird nach höchsten Qualitätsstandards realisiert."
+        },
+        "zh": {
+          "title": "卓越与品质",
+          "desc": "每个GNAH项目都按照最高质量标准完成。"
+        }
+      },
+      {
+        "icon": "eco",
+        "fr": {
+          "title": "Développement Durable",
+          "desc": "GNAH intègre des pratiques éco-responsables dans tous ses projets."
+        },
+        "en": {
+          "title": "Sustainable Development",
+          "desc": "GNAH integrates eco-responsible practices across all projects."
+        },
+        "es": {
+          "title": "Desarrollo Sostenible",
+          "desc": "GNAH integra prácticas eco-responsables en todos sus proyectos."
+        },
+        "de": {
+          "title": "Nachhaltige Entwicklung",
+          "desc": "GNAH integriert öko-verantwortliche Praktiken in alle Projekte."
+        },
+        "zh": {
+          "title": "可持续发展",
+          "desc": "GNAH在所有项目中融入生态责任实践。"
+        }
+      },
+      {
+        "icon": "community",
+        "fr": {
+          "title": "Impact Communautaire",
+          "desc": "Nos projets créent de l'emploi local et contribuent au cadre de vie africain."
+        },
+        "en": {
+          "title": "Community Impact",
+          "desc": "Our projects create local employment and improve African living conditions."
+        },
+        "es": {
+          "title": "Impacto Comunitario",
+          "desc": "Nuestros proyectos crean empleo local y mejoran las condiciones de vida."
+        },
+        "de": {
+          "title": "Gemeinschaftliche Wirkung",
+          "desc": "Unsere Projekte schaffen lokale Arbeitsplätze."
+        },
+        "zh": {
+          "title": "社区影响",
+          "desc": "我们的项目创造本地就业，改善非洲人民的生活条件。"
+        }
+      },
+      {
+        "icon": "star",
+        "fr": {
+          "title": "Transparence & Confiance",
+          "desc": "GNAH construit des relations durables basées sur la transparence et l'intégrité."
+        },
+        "en": {
+          "title": "Transparency & Trust",
+          "desc": "GNAH builds lasting relationships based on transparency and integrity."
+        },
+        "es": {
+          "title": "Transparencia y Confianza",
+          "desc": "GNAH construye relaciones duraderas basadas en la transparencia."
+        },
+        "de": {
+          "title": "Transparenz & Vertrauen",
+          "desc": "GNAH baut dauerhafte Beziehungen auf Basis von Transparenz auf."
+        },
+        "zh": {
+          "title": "透明度与信任",
+          "desc": "GNAH建立基于透明度和诚信的持久关系。"
+        }
+      }
+    ],
+    "africaOpps": {
+      "fr": "L'Afrique représente 23% de la surface planète, 24,3% des terres agricoles mondiales, 90% des réserves mondiales de platine et 30% des ressources solaires mondiales.",
+      "en": "Africa represents 23% of Earth's surface, 24.3% of global agricultural land, 90% of world platinum reserves and 30% of global solar resources.",
+      "es": "África representa el 23% de la superficie terrestre, el 24,3% de las tierras agrícolas mundiales, el 90% de las reservas de platino y el 30% de los recursos solares.",
+      "de": "Afrika repräsentiert 23% der Erdoberfläche, 24,3% der weltweiten Agrarfläche, 90% der Platinreserven und 30% der Solarressourcen.",
+      "zh": "非洲占地球表面积的23%，全球农业用地的24.3%，全球铂储量的90%，以及全球太阳能资源的30%。"
+    },
+    "companyIntro": {
+      "fr": "G.N.A.H est présent sur le marché depuis 2015 en tant que société spécialisée dans le développement et la structuration de projets, l'infrastructure publique, l'agriculture, la construction et l'immobilier.",
+      "en": "G.N.A.H has been operating since 2015 as a company specialising in project development, public infrastructure, agriculture, construction and real estate.",
+      "es": "G.N.A.H opera desde 2015 como empresa especializada en desarrollo de proyectos, infraestructura pública, agricultura, construcción e inmobiliaria.",
+      "de": "G.N.A.H ist seit 2015 auf dem Markt tätig als Unternehmen für Projektentwicklung, Infrastruktur, Landwirtschaft, Bau und Immobilien.",
+      "zh": "G.N.A.H自2015年以来一直作为专注于项目开发、公共基础设施、农业、建筑和房地产的公司运营。"
+    },
+    "consortium": {
+      "fr": "Composée d'une équipe de spécialistes, techniciens, ingénieurs et architectes, GNAH dispose de l'expertise nécessaire pour atteindre avec succès les objectifs définis.",
+      "en": "Made up of specialists, technicians, engineers and architects, GNAH has the expertise to successfully achieve defined objectives.",
+      "es": "Compuesta por especialistas, técnicos, ingenieros y arquitectos, GNAH tiene la experiencia para lograr los objetivos definidos.",
+      "de": "Bestehend aus Spezialisten, Technikern, Ingenieuren und Architekten hat GNAH die Expertise die definierten Ziele zu erreichen.",
+      "zh": "GNAH由专家、技术人员、工程师和建筑师组成，拥有成功实现既定目标所需的专业知识。"
+    },
+    "strategy": {
+      "fr": "GNAH dispose de stratégies et de plans bien définis pour atteindre chacun de ses objectifs.",
+      "en": "GNAH has well-defined strategies and plans to achieve each of its objectives.",
+      "es": "GNAH dispone de estrategias y planes bien definidos para alcanzar cada uno de sus objetivos.",
+      "de": "GNAH hat klar definierte Strategien und Pläne zur Erreichung jedes seiner Ziele.",
+      "zh": "GNAH拥有明确的战略和计划来实现每一个目标。"
+    },
+    "objectives": [
+      {
+        "img": "https://images.unsplash.com/photo-1545987796-200677ee1011?w=600&q=85",
+        "fr": {
+          "title": "Infrastructure Routière",
+          "desc": "Autoroute Abuja-Lagos 467km ($5,7 Mrd)"
+        },
+        "en": {
+          "title": "Road Infrastructure",
+          "desc": "Abuja-Lagos 467km highway ($5.7B)"
+        },
+        "es": {
+          "title": "Infraestructura Vial",
+          "desc": "Autopista Abuja-Lagos 467km"
+        },
+        "de": {
+          "title": "Straßeninfrastruktur",
+          "desc": "Abuja-Lagos 467km Autobahn"
+        },
+        "zh": {
+          "title": "公路基础设施",
+          "desc": "阿布贾-拉各斯467公里高速公路 (57亿美元)"
+        }
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=600&q=85",
+        "fr": {
+          "title": "Développement Immobilier",
+          "desc": "300+ villas Yaye Dia, Programme Eden ($700M)"
+        },
+        "en": {
+          "title": "Real Estate Development",
+          "desc": "300+ Yaye Dia villas, Eden Programme ($700M)"
+        },
+        "es": {
+          "title": "Desarrollo Inmobiliario",
+          "desc": "300+ villas Yaye Dia, Programa Eden ($700M)"
+        },
+        "de": {
+          "title": "Immobilienentwicklung",
+          "desc": "300+ Yaye Dia Villen, Eden-Programm ($700M)"
+        },
+        "zh": {
+          "title": "房地产开发",
+          "desc": "300多栋Yaye Dia别墅，伊甸园计划 (7亿美元)"
+        }
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&q=85",
+        "fr": {
+          "title": "Agriculture Technologique",
+          "desc": "Systèmes agricoles automatisés pour l'Afrique"
+        },
+        "en": {
+          "title": "Technological Agriculture",
+          "desc": "Automated agricultural systems for Africa"
+        },
+        "es": {
+          "title": "Agricultura Tecnológica",
+          "desc": "Sistemas agrícolas automatizados para África"
+        },
+        "de": {
+          "title": "Technologische Landwirtschaft",
+          "desc": "Automatisierte Agrarsysteme für Afrika"
+        },
+        "zh": {
+          "title": "技术农业",
+          "desc": "非洲自动化农业系统"
+        }
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&q=85",
+        "fr": {
+          "title": "Ports & Transport Maritime",
+          "desc": "Port lagunaire Dabou ($1,7 Mrd BOT)"
+        },
+        "en": {
+          "title": "Ports & Maritime Transport",
+          "desc": "Dabou lagoon port ($1.7B BOT)"
+        },
+        "es": {
+          "title": "Puertos y Transporte Marítimo",
+          "desc": "Puerto lagunar Dabou ($1,7 Mrd BOT)"
+        },
+        "de": {
+          "title": "Häfen & Seetransport",
+          "desc": "Lagunenhafen Dabou ($1,7 Mrd BOT)"
+        },
+        "zh": {
+          "title": "港口与海上运输",
+          "desc": "达布湖港 (17亿美元 BOT)"
+        }
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=85",
+        "fr": {
+          "title": "Énergie Renouvelable",
+          "desc": "30% des ressources solaires mondiales en Afrique"
+        },
+        "en": {
+          "title": "Renewable Energy",
+          "desc": "30% of global solar resources in Africa"
+        },
+        "es": {
+          "title": "Energía Renovable",
+          "desc": "30% de los recursos solares mundiales en África"
+        },
+        "de": {
+          "title": "Erneuerbare Energien",
+          "desc": "30% der weltweiten Solarressourcen in Afrika"
+        },
+        "zh": {
+          "title": "可再生能源",
+          "desc": "非洲拥有全球30%的太阳能资源"
+        }
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=85",
+        "fr": {
+          "title": "Industries & Mines",
+          "desc": "Exploitation minière responsable pour l'Afrique"
+        },
+        "en": {
+          "title": "Industry & Mining",
+          "desc": "Responsible mining for tomorrow's Africa"
+        },
+        "es": {
+          "title": "Industria y Minería",
+          "desc": "Minería responsable para el África del mañana"
+        },
+        "de": {
+          "title": "Industrie & Bergbau",
+          "desc": "Verantwortungsvoller Bergbau für Afrika"
+        },
+        "zh": {
+          "title": "工业与矿业",
+          "desc": "为非洲未来负责任地开发矿业"
+        }
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "sport",
+        "fr": {
+          "t": "Complexe Sportif Moderne",
+          "d": "Football, basketball, handball."
+        },
+        "en": {
+          "t": "Modern Sports Complex",
+          "d": "Football, basketball, handball."
+        },
+        "es": {
+          "t": "Complejo Deportivo",
+          "d": "Fútbol, baloncesto, balonmano."
+        },
+        "de": {
+          "t": "Sportkomplex",
+          "d": "Fußball, Basketball, Handball."
+        },
+        "zh": {
+          "t": "现代体育综合体",
+          "d": "足球、篮球、手球。"
+        }
+      },
+      {
+        "icon": "kids",
+        "fr": {
+          "t": "Espace Jeux Enfants",
+          "d": "Aire de jeux sécurisée."
+        },
+        "en": {
+          "t": "Children's Play Area",
+          "d": "Secure play area."
+        },
+        "es": {
+          "t": "Zona de Juegos",
+          "d": "Área de juegos segura."
+        },
+        "de": {
+          "t": "Kinderspielbereich",
+          "d": "Sicherer Spielbereich."
+        },
+        "zh": {
+          "t": "儿童游乐区",
+          "d": "安全游乐区。"
+        }
+      },
+      {
+        "icon": "mosque",
+        "fr": {
+          "t": "Mosquée",
+          "d": "Lieu de culte au cœur de la cité."
+        },
+        "en": {
+          "t": "Mosque",
+          "d": "Place of worship."
+        },
+        "es": {
+          "t": "Mezquita",
+          "d": "Lugar de culto."
+        },
+        "de": {
+          "t": "Moschee",
+          "d": "Gebetsstätte."
+        },
+        "zh": {
+          "t": "清真寺",
+          "d": "社区礼拜场所。"
+        }
+      },
+      {
+        "icon": "mall",
+        "fr": {
+          "t": "Centre Commercial",
+          "d": "Commerces et services essentiels."
+        },
+        "en": {
+          "t": "Shopping Centre",
+          "d": "Shops and essential services."
+        },
+        "es": {
+          "t": "Centro Comercial",
+          "d": "Tiendas y servicios esenciales."
+        },
+        "de": {
+          "t": "Einkaufszentrum",
+          "d": "Geschäfte und Dienstleistungen."
+        },
+        "zh": {
+          "t": "购物中心",
+          "d": "商店和基本服务。"
+        }
+      },
+      {
+        "icon": "health",
+        "fr": {
+          "t": "District Sanitaire",
+          "d": "Centre de santé moderne."
+        },
+        "en": {
+          "t": "Health District",
+          "d": "Modern health centre."
+        },
+        "es": {
+          "t": "Distrito Sanitario",
+          "d": "Centro de salud moderno."
+        },
+        "de": {
+          "t": "Gesundheitsbezirk",
+          "d": "Modernes Gesundheitszentrum."
+        },
+        "zh": {
+          "t": "医疗区",
+          "d": "现代医疗中心。"
+        }
+      }
+    ],
+    "lotissement": {
+      "fr": {
+        "title": "Lotissement Sur Mesure",
+        "desc": "La Cité Yaye Dia est conçue selon les standards modernes d'urbanisme. Chaque élément est pensé pour offrir confort, sécurité et durabilité aux 300 familles.",
+        "items": [
+          {
+            "t": "Éclairage Solaire",
+            "d": "Lampadaires solaires performants pour la sécurité 24h/24 et la durabilité environnementale."
+          },
+          {
+            "t": "Réseau Assainissement",
+            "d": "Réseau complet tout-à-l'égout conforme aux normes internationales d'hygiène."
+          },
+          {
+            "t": "Gestion des Déchets",
+            "d": "Station de recyclage dédiée et collecte organisée pour une cité propre."
+          },
+          {
+            "t": "Voirie Intelligente",
+            "d": "Routes larges et parfaitement tracées facilitant la circulation et le développement."
+          }
+        ]
+      },
+      "en": {
+        "title": "Tailored Development",
+        "desc": "Yaye Dia City is designed to modern urban planning standards. Every element is designed for comfort, safety and durability for 300 families.",
+        "items": [
+          {
+            "t": "Solar Lighting",
+            "d": "High-performance solar street lights for 24/7 security and environmental sustainability."
+          },
+          {
+            "t": "Sewerage Network",
+            "d": "Complete sewerage network compliant with international hygiene standards."
+          },
+          {
+            "t": "Waste Management",
+            "d": "Dedicated recycling station and organised collection for a clean city."
+          },
+          {
+            "t": "Smart Roads",
+            "d": "Wide and perfectly laid roads facilitating circulation and development."
+          }
+        ]
+      },
+      "es": {
+        "title": "Urbanización a Medida",
+        "desc": "La Ciudad Yaye Dia está diseñada según los estándares modernos de planificación urbana.",
+        "items": [
+          {
+            "t": "Alumbrado Solar",
+            "d": "Farolas solares de alto rendimiento para seguridad 24/7."
+          },
+          {
+            "t": "Red de Saneamiento",
+            "d": "Red completa de alcantarillado conforme a normas internacionales."
+          },
+          {
+            "t": "Gestión de Residuos",
+            "d": "Estación de reciclaje dedicada y recogida organizada."
+          },
+          {
+            "t": "Vías Inteligentes",
+            "d": "Calles amplias y perfectamente trazadas."
+          }
+        ]
+      },
+      "de": {
+        "title": "Maßgeschneiderte Erschließung",
+        "desc": "Die Yaye Dia Stadt ist nach modernen Stadtplanungsstandards gestaltet.",
+        "items": [
+          {
+            "t": "Solarbeleuchtung",
+            "d": "Solarstraßenlaternen für 24/7-Sicherheit."
+          },
+          {
+            "t": "Kanalnetz",
+            "d": "Vollständiges Abwassernetz gemäß internationalen Hygienestandards."
+          },
+          {
+            "t": "Abfallwirtschaft",
+            "d": "Dedizierte Recyclingstation und organisierte Sammlung."
+          },
+          {
+            "t": "Intelligente Straßen",
+            "d": "Breite und perfekt angelegte Straßen."
+          }
+        ]
+      },
+      "zh": {
+        "title": "定制化开发",
+        "desc": "Yaye Dia城按照现代城市规划标准设计，为300个家庭提供舒适、安全和耐久的居住环境。",
+        "items": [
+          {
+            "t": "太阳能照明",
+            "d": "高性能太阳能路灯，提供24/7安全保障和环境可持续性。"
+          },
+          {
+            "t": "排污网络",
+            "d": "符合国际卫生标准的完整排污网络。"
+          },
+          {
+            "t": "废物管理",
+            "d": "专用回收站和有组织的垃圾收集，保持城市整洁。"
+          },
+          {
+            "t": "智能道路",
+            "d": "宽阔、完美铺设的道路，便于通行和发展。"
+          }
+        ]
+      }
+    },
+    "archPhilosophy": {
+      "fr": {
+        "title": "Architecture Tropicale Contemporaine",
+        "intro": "L'esthétique au service de la fonctionnalité",
+        "desc": "Nos villas sont conçues selon une philosophie architecturale tropicale contemporaine alliant esthétique, confort et durabilité. L'espace de vie ouvert augmente la perception de surface jusqu'à +20% visuellement.",
+        "subtitle": "Nos 3 Piliers Architecturaux",
+        "items": [
+          "Optimisation fonctionnelle — chaque m² est pensé et utilisé",
+          "Fluidité des circulations — passages naturels et intuitifs",
+          "Valorisation de la lumière naturelle — grandes baies vitrées"
+        ]
+      },
+      "en": {
+        "title": "Contemporary Tropical Architecture",
+        "intro": "Aesthetics in service of functionality",
+        "desc": "Our villas follow a contemporary tropical architectural philosophy combining aesthetics, comfort and durability. The open living space increases surface perception by up to +20% visually.",
+        "subtitle": "Our 3 Architectural Pillars",
+        "items": [
+          "Functional optimisation — every m² is thought out",
+          "Fluid circulation — natural and intuitive passages",
+          "Enhancement of natural light — large bay windows"
+        ]
+      },
+      "es": {
+        "title": "Arquitectura Tropical Contemporánea",
+        "intro": "La estética al servicio de la funcionalidad",
+        "desc": "Nuestras villas siguen una filosofía arquitectónica tropical contemporánea que combina estética, confort y durabilidad.",
+        "subtitle": "Nuestros 3 Pilares Arquitectónicos",
+        "items": [
+          "Optimización funcional — cada m² está pensado",
+          "Fluidez de circulaciones — pasos naturales e intuitivos",
+          "Valorización de la luz natural — grandes ventanales"
+        ]
+      },
+      "de": {
+        "title": "Zeitgenössische Tropische Architektur",
+        "intro": "Ästhetik im Dienst der Funktionalität",
+        "desc": "Unsere Villen folgen einer zeitgenössischen tropischen Architekturphilosophie, die Ästhetik, Komfort und Langlebigkeit verbindet.",
+        "subtitle": "Unsere 3 Architektonischen Säulen",
+        "items": [
+          "Funktionale Optimierung — jeder m² ist durchdacht",
+          "Fließende Zirkulation — natürliche und intuitive Wege",
+          "Aufwertung des natürlichen Lichts — große Glasfronten"
+        ]
+      },
+      "zh": {
+        "title": "当代热带建筑",
+        "intro": "美学服务于功能",
+        "desc": "我们的别墅遵循当代热带建筑理念，融合美学、舒适性和耐久性。开放式生活空间在视觉上增加了高达+20%的空间感知。",
+        "subtitle": "我们的3大建筑支柱",
+        "items": [
+          "功能优化 — 每平方米都经过精心设计",
+          "流畅的动线 — 自然直观的通道",
+          "自然光的利用 — 大型落地窗"
+        ]
+      }
+    },
+    "materials": {
+      "fr": {
+        "title": "Matériaux Nobles & Durables",
+        "desc": "Chaque villa est construite avec des matériaux haut de gamme : bois massif, pierre naturelle et marbre Calacatta pour les villas F5. La qualité est non négociable chez GNAH.",
+        "marble": "Revêtement intégral en marbre Calacatta — veines dorées, brillance naturelle. Symbole de luxe et de prestige absolu.",
+        "color": "Le client a une liberté totale sur le choix de la couleur. Première recommandation : vert émeraude modulable. Le client est Roi."
+      },
+      "en": {
+        "title": "Noble & Durable Materials",
+        "desc": "Each villa is built with high-end materials: solid wood, natural stone and Calacatta marble for F5 villas. Quality is non-negotiable at GNAH.",
+        "marble": "Full Calacatta marble coating — golden veins, natural shine. Symbol of absolute luxury and prestige.",
+        "color": "The client has total freedom in colour choice. First recommendation: adjustable emerald green. The client is King."
+      },
+      "es": {
+        "title": "Materiales Nobles y Duraderos",
+        "desc": "Cada villa está construida con materiales de alta gama: madera maciza, piedra natural y mármol Calacatta para las villas F5.",
+        "marble": "Revestimiento integral de mármol Calacatta — vetas doradas, brillo natural. Símbolo de lujo y prestigio absoluto.",
+        "color": "El cliente tiene libertad total en la elección del color. Primera recomendación: verde esmeralda modulable. El cliente es Rey."
+      },
+      "de": {
+        "title": "Edle & Dauerhafte Materialien",
+        "desc": "Jede Villa wird mit hochwertigen Materialien gebaut: Massivholz, Naturstein und Calacatta-Marmor für F5-Villen.",
+        "marble": "Vollständige Calacatta-Marmor Verkleidung — goldene Adern, natürlicher Glanz. Symbol absoluten Luxus und Prestige.",
+        "color": "Der Kunde hat völlige Freiheit bei der Farbwahl. Erste Empfehlung: anpassbares Smaragdgrün. Der Kunde ist König."
+      },
+      "zh": {
+        "title": "高贵耐久的材料",
+        "desc": "每栋别墅都采用高端材料建造：实木、天然石材，F5别墅还使用卡拉卡塔大理石。GNAH的质量不可妥协。",
+        "marble": "卡拉卡塔大理石全覆盖 — 金色纹脉，自然光泽。绝对奢华与尊贵的象征。",
+        "color": "客户在颜色选择上拥有完全自由。首选推荐：可调节的祖母绿。客户是王。"
+      }
+    },
+    "yayeSlides": [
+      {
+        "img": "/Images/yaye-dia/villa-f5-facade3.jpg",
+        "fr": {
+          "tag": "L'Art de vivre Moderne",
+          "title": "Villa F5 — Très Haut Standing",
+          "sub": "340 m² bâtis — Mercedes G-Wagon"
+        },
+        "en": {
+          "tag": "The Art of Modern Living",
+          "title": "F5 Villa — Premium",
+          "sub": "340 m² built — Yaye Dia City"
+        },
+        "es": {
+          "tag": "El Arte de Vivir Moderno",
+          "title": "Villa F5 — Premium",
+          "sub": "340 m² construidos"
+        },
+        "de": {
+          "tag": "Die Kunst des modernen Lebens",
+          "title": "F5 Villa — Premium",
+          "sub": "340 m² gebaut"
+        },
+        "zh": {
+          "tag": "现代生活艺术",
+          "title": "F5豪华别墅",
+          "sub": "340平方米建筑 — Yaye Dia城"
+        }
+      },
+      {
+        "img": "/Images/yaye-dia/villa-f4duplex-nuit.jpg",
+        "fr": {
+          "tag": "Nuit Étoilée",
+          "title": "Villas F4 Duplex illuminées",
+          "sub": "Haut Standing — sous les étoiles"
+        },
+        "en": {
+          "tag": "Starry Night",
+          "title": "Illuminated F4 Duplex Villas",
+          "sub": "High-End — under the stars"
+        },
+        "es": {
+          "tag": "Noche Estrellada",
+          "title": "Villas F4 Dúplex iluminadas",
+          "sub": "Alto Standing"
+        },
+        "de": {
+          "tag": "Sternennacht",
+          "title": "Beleuchtete F4 Duplex Villen",
+          "sub": "Hochwertig"
+        },
+        "zh": {
+          "tag": "星空夜晚",
+          "title": "F4复式别墅夜景",
+          "sub": "高档 — 星空下的住宅"
+        }
+      },
+      {
+        "img": "/Images/yaye-dia/cite-vue-aerienne.jpg",
+        "fr": {
+          "tag": "Vue Aérienne",
+          "title": "300 Villas — Vue Complète",
+          "sub": "Région de Thiès — Sénégal"
+        },
+        "en": {
+          "tag": "Aerial View",
+          "title": "300 Villas — Complete View",
+          "sub": "Thiès Region — Senegal"
+        },
+        "es": {
+          "tag": "Vista Aérea",
+          "title": "300 Villas — Vista Completa",
+          "sub": "Región de Thiès — Senegal"
+        },
+        "de": {
+          "tag": "Luftaufnahme",
+          "title": "300 Villen — Vollständige Ansicht",
+          "sub": "Thiès Region — Senegal"
+        },
+        "zh": {
+          "tag": "鸟瞰图",
+          "title": "300栋别墅 — 全景",
+          "sub": "塞内加尔蒂耶斯地区"
+        }
+      },
+      {
+        "img": "/Images/yaye-dia/salon-f4-interieur.jpg",
+        "fr": {
+          "tag": "Intérieur Luxueux",
+          "title": "Salon Duplex — Marbre & Bois",
+          "sub": "Finitions haut de gamme"
+        },
+        "en": {
+          "tag": "Luxury Interior",
+          "title": "Duplex Living Room — Marble & Wood",
+          "sub": "High-end finishes"
+        },
+        "es": {
+          "tag": "Interior Lujoso",
+          "title": "Salón Dúplex — Mármol y Madera",
+          "sub": "Acabados de lujo"
+        },
+        "de": {
+          "tag": "Luxuriöses Interieur",
+          "title": "Duplex Wohnzimmer — Marmor & Holz",
+          "sub": "Hochwertige Oberflächen"
+        },
+        "zh": {
+          "tag": "豪华内饰",
+          "title": "复式客厅 — 大理石与木材",
+          "sub": "高端精装修"
+        }
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon": "building",
+      "fr": {
+        "title": "Gestion Immobilière",
+        "desc": "Administration et valorisation de vos biens immobiliers avec une expertise locale et internationale. Gestion complète de la conception à la livraison."
+      },
+      "en": {
+        "title": "Property Management",
+        "desc": "Administration and enhancement of your real estate assets with local and international expertise."
+      },
+      "es": {
+        "title": "Gestión Inmobiliaria",
+        "desc": "Administración y valorización de sus bienes inmuebles con experiencia local e internacional."
+      },
+      "de": {
+        "title": "Immobilienverwaltung",
+        "desc": "Verwaltung und Aufwertung Ihrer Immobilien mit lokaler und internationaler Expertise."
+      },
+      "zh": {
+        "title": "房产管理",
+        "desc": "以本地和国际专业知识管理和提升您的房地产资产。从设计到交付的全程管理。"
+      }
+    },
+    {
+      "icon": "layers",
+      "fr": {
+        "title": "Développement de Projets",
+        "desc": "De la conception à la réalisation, nous structurons vos projets immobiliers, d'infrastructure et agricoles avec rigueur et vision stratégique."
+      },
+      "en": {
+        "title": "Project Development",
+        "desc": "From design to completion, we structure your real estate, infrastructure and agricultural projects."
+      },
+      "es": {
+        "title": "Desarrollo de Proyectos",
+        "desc": "De la concepción a la realización, estructuramos sus proyectos con rigor y visión estratégica."
+      },
+      "de": {
+        "title": "Projektentwicklung",
+        "desc": "Von der Planung bis zur Umsetzung strukturieren wir Ihre Projekte mit Sorgfalt."
+      },
+      "zh": {
+        "title": "项目开发",
+        "desc": "从设计到实施，我们以严谨性和战略眼光构建您的房地产、基础设施和农业项目。"
+      }
+    },
+    {
+      "icon": "chart",
+      "fr": {
+        "title": "Structuration Financière",
+        "desc": "Montages financiers adaptés aux projets privés, publics ou public-privé. Accès à nos partenaires bancaires mondiaux."
+      },
+      "en": {
+        "title": "Financial Structuring",
+        "desc": "Financial arrangements for private, public or public-private projects. Access to our global banking partners."
+      },
+      "es": {
+        "title": "Estructuración Financiera",
+        "desc": "Montajes financieros para proyectos privados, públicos o público-privados."
+      },
+      "de": {
+        "title": "Finanzstrukturierung",
+        "desc": "Finanzarrangements für private oder öffentliche Projekte."
+      },
+      "zh": {
+        "title": "金融结构",
+        "desc": "为私人、公共或公私合营项目量身定制的金融安排。获取我们全球银行合作伙伴的支持。"
+      }
+    },
+    {
+      "icon": "road",
+      "fr": {
+        "title": "Infrastructure Publique",
+        "desc": "Conception, financement et réalisation de routes, ponts, ports et infrastructures urbaines à travers le continent africain."
+      },
+      "en": {
+        "title": "Public Infrastructure",
+        "desc": "Design, financing and construction of roads, bridges, ports and urban infrastructure."
+      },
+      "es": {
+        "title": "Infraestructura Pública",
+        "desc": "Diseño, financiación y realización de carreteras, puentes y puertos."
+      },
+      "de": {
+        "title": "Öffentliche Infrastruktur",
+        "desc": "Planung, Finanzierung und Bau von Straßen, Brücken und Häfen."
+      },
+      "zh": {
+        "title": "公共基础设施",
+        "desc": "在非洲大陆设计、融资和建造道路、桥梁、港口和城市基础设施。"
+      }
+    },
+    {
+      "icon": "leaf",
+      "fr": {
+        "title": "Agriculture & Technologie",
+        "desc": "Mise en place de systèmes agricoles modernes et automatisés. Valorisation des terres africaines avec des technologies de pointe."
+      },
+      "en": {
+        "title": "Agriculture & Technology",
+        "desc": "Setting up modern automated agricultural systems with cutting-edge technologies."
+      },
+      "es": {
+        "title": "Agricultura y Tecnología",
+        "desc": "Implementación de sistemas agrícolas modernos y automatizados."
+      },
+      "de": {
+        "title": "Landwirtschaft & Technologie",
+        "desc": "Einrichtung moderner automatisierter Agrarsysteme."
+      },
+      "zh": {
+        "title": "农业与技术",
+        "desc": "建立现代化自动化农业系统，用尖端技术开发非洲土地。"
+      }
+    },
+    {
+      "icon": "zap",
+      "fr": {
+        "title": "Énergie Renouvelable",
+        "desc": "Développement de projets solaires, éoliens et hydrogène adaptés aux besoins énergétiques croissants du continent africain."
+      },
+      "en": {
+        "title": "Renewable Energy",
+        "desc": "Solar, wind and hydrogen projects for Africa's growing energy needs."
+      },
+      "es": {
+        "title": "Energía Renovable",
+        "desc": "Proyectos solares, eólicos e hidrógeno para las necesidades energéticas de África."
+      },
+      "de": {
+        "title": "Erneuerbare Energien",
+        "desc": "Solar-, Wind- und Wasserstoffprojekte für Afrikas Energiebedarf."
+      },
+      "zh": {
+        "title": "可再生能源",
+        "desc": "开发太阳能、风能和氢能项目，满足非洲大陆不断增长的能源需求。"
+      }
+    }
+  ],
+  "villas": [
+    {
+      "code": "f3",
+      "color": "#f59e0b",
+      "surface": "225 m²",
+      "bati": "83 m²",
+      "img": "/Images/yaye-dia/villa-f3-facade.jpg",
+      "planImg": "/Images/yaye-dia/villa-f3-plan.jpg",
+      "fr": {
+        "name": "Villa F3 Économique",
+        "standing": "Économique"
+      },
+      "en": {
+        "name": "F3 Economy Villa",
+        "standing": "Economy"
+      },
+      "es": {
+        "name": "Villa F3 Económica",
+        "standing": "Económica"
+      },
+      "de": {
+        "name": "F3 Economy Villa",
+        "standing": "Economy"
+      },
+      "zh": {
+        "name": "F3经济型别墅",
+        "standing": "经济型"
+      },
+      "rooms": [
+        {
+          "fr": "Chambre enfant",
+          "en": "Child bedroom",
+          "es": "Habitación infantil",
+          "de": "Kinderzimmer",
+          "zh": "儿童卧室",
+          "val": "12,50 m²"
+        },
+        {
+          "fr": "Chambre parentale",
+          "en": "Master bedroom",
+          "es": "Dormitorio principal",
+          "de": "Elternzimmer",
+          "zh": "主卧室",
+          "val": "15,65 m²"
+        },
+        {
+          "fr": "Cuisine ouverte",
+          "en": "Open kitchen",
+          "es": "Cocina abierta",
+          "de": "Offene Küche",
+          "zh": "开放式厨房",
+          "val": "15,21 m²"
+        },
+        {
+          "fr": "Salon",
+          "en": "Living room",
+          "es": "Salón",
+          "de": "Wohnzimmer",
+          "zh": "客厅",
+          "val": "20,92 m²"
+        }
+      ],
+      "features": {
+        "fr": [
+          "Architecture Open Space élégant",
+          "Jardin tropical aménagé",
+          "Parfait pour famille de 3-4 personnes"
+        ],
+        "en": [
+          "Elegant open-space architecture",
+          "Landscaped tropical garden",
+          "Perfect for family of 3-4"
+        ],
+        "es": [
+          "Arquitectura Open Space elegante",
+          "Jardín tropical amenizado",
+          "Perfecto para familia de 3-4"
+        ],
+        "de": [
+          "Elegante Open-Space-Architektur",
+          "Tropengarten",
+          "Perfekt für Familie"
+        ],
+        "zh": [
+          "优雅的开放式建筑",
+          "热带花园",
+          "适合3-4人家庭"
+        ]
+      }
+    },
+    {
+      "code": "f4pp",
+      "color": "#34d399",
+      "surface": "225 m²",
+      "bati": "106 m²",
+      "img": "/Images/yaye-dia/villa-f4pp-facade.jpg",
+      "planImg": "/Images/yaye-dia/villa-f4pp-plan2.jpg",
+      "fr": {
+        "name": "Villa F4 Plein Pied",
+        "standing": "Moyen Standing"
+      },
+      "en": {
+        "name": "F4 Single-Story Villa",
+        "standing": "Mid-Range"
+      },
+      "es": {
+        "name": "Villa F4 Planta Baja",
+        "standing": "Rango Medio"
+      },
+      "de": {
+        "name": "F4 Einstöckige Villa",
+        "standing": "Mittelklasse"
+      },
+      "zh": {
+        "name": "F4平层别墅",
+        "standing": "中档"
+      },
+      "rooms": [
+        {
+          "fr": "Chambre parentale",
+          "en": "Master bedroom",
+          "es": "Dormitorio principal",
+          "de": "Elternzimmer",
+          "zh": "主卧室",
+          "val": "15,65 m²"
+        },
+        {
+          "fr": "Chambre enfant",
+          "en": "Child bedroom",
+          "es": "Habitación infantil",
+          "de": "Kinderzimmer",
+          "zh": "儿童卧室",
+          "val": "12,29 m²"
+        },
+        {
+          "fr": "Salon",
+          "en": "Living room",
+          "es": "Salón",
+          "de": "Wohnzimmer",
+          "zh": "客厅",
+          "val": "20,92 m²"
+        },
+        {
+          "fr": "Cuisine",
+          "en": "Kitchen",
+          "es": "Cocina",
+          "de": "Küche",
+          "zh": "厨房",
+          "val": "15,21 m²"
+        }
+      ],
+      "features": {
+        "fr": [
+          "Salon double hauteur spectaculaire",
+          "3 suites avec salles de bain privées",
+          "Façade contemporaine"
+        ],
+        "en": [
+          "Spectacular double-height living room",
+          "3 suites with private bathrooms",
+          "Contemporary facade"
+        ],
+        "es": [
+          "Espectacular salón de doble altura",
+          "3 suites con baños privados",
+          "Fachada contemporánea"
+        ],
+        "de": [
+          "Spektakuläres Wohnzimmer",
+          "3 Suiten mit privaten Bädern",
+          "Zeitgenössische Fassade"
+        ],
+        "zh": [
+          "壮观的双层挑高客厅",
+          "3间带私人浴室的套房",
+          "现代风格外立面"
+        ]
+      }
+    },
+    {
+      "code": "f4duplex",
+      "color": "#6366f1",
+      "surface": "225 m²",
+      "bati": "232 m²",
+      "img": "/Images/yaye-dia/villa-f4duplex.jpg",
+      "planImg": "/Images/yaye-dia/villa-f4duplex-nuit.jpg",
+      "fr": {
+        "name": "Villa F4 Duplex",
+        "standing": "Haut Standing"
+      },
+      "en": {
+        "name": "F4 Duplex Villa",
+        "standing": "High-End"
+      },
+      "es": {
+        "name": "Villa F4 Dúplex",
+        "standing": "Alto Standing"
+      },
+      "de": {
+        "name": "F4 Duplex Villa",
+        "standing": "Hochwertig"
+      },
+      "zh": {
+        "name": "F4复式别墅",
+        "standing": "高档"
+      },
+      "rooms": [
+        {
+          "fr": "Salon",
+          "en": "Living room",
+          "es": "Salón",
+          "de": "Wohnzimmer",
+          "zh": "客厅",
+          "val": "58,80 m²"
+        },
+        {
+          "fr": "Terrasse",
+          "en": "Terrace",
+          "es": "Terraza",
+          "de": "Terrasse",
+          "zh": "露台",
+          "val": "40 m²"
+        },
+        {
+          "fr": "Chambre parentale",
+          "en": "Master bedroom",
+          "es": "Dormitorio principal",
+          "de": "Elternzimmer",
+          "zh": "主卧室",
+          "val": "15,96 m²"
+        },
+        {
+          "fr": "Cuisine",
+          "en": "Kitchen",
+          "es": "Cocina",
+          "de": "Küche",
+          "zh": "厨房",
+          "val": "13,98 m²"
+        }
+      ],
+      "features": {
+        "fr": [
+          "Grandes baies vitrées sur 2 niveaux",
+          "Terrasse 40 m² vue panoramique",
+          "Salon 58,80 m²"
+        ],
+        "en": [
+          "Large windows on 2 levels",
+          "40 m² panoramic terrace",
+          "58.80 m² living room"
+        ],
+        "es": [
+          "Grandes ventanales en 2 niveles",
+          "Terraza 40 m² panorámica",
+          "Salón 58,80 m²"
+        ],
+        "de": [
+          "Große Fenster auf 2 Ebenen",
+          "40 m² Panoramaterrasse",
+          "Wohnzimmer 58,80 m²"
+        ],
+        "zh": [
+          "两层大落地窗",
+          "40平方米全景露台",
+          "58.80平方米客厅"
+        ]
+      }
+    },
+    {
+      "code": "f5",
+      "color": "#f472b6",
+      "surface": "225 m²",
+      "bati": "340 m²",
+      "img": "/Images/yaye-dia/villa-f5-terrasse.jpg",
+      "planImg": "/Images/yaye-dia/villa-f5-terrasse-plan.jpg",
+      "fr": {
+        "name": "Villa F5",
+        "standing": "Très Haut Standing"
+      },
+      "en": {
+        "name": "F5 Premium Villa",
+        "standing": "Premium"
+      },
+      "es": {
+        "name": "Villa F5 Premium",
+        "standing": "Premium"
+      },
+      "de": {
+        "name": "F5 Premium Villa",
+        "standing": "Premium"
+      },
+      "zh": {
+        "name": "F5豪华别墅",
+        "standing": "顶级豪华"
+      },
+      "rooms": [
+        {
+          "fr": "Master Room",
+          "en": "Master Room",
+          "es": "Master Room",
+          "de": "Master Room",
+          "zh": "主人套房",
+          "val": "20 m²"
+        },
+        {
+          "fr": "Salon",
+          "en": "Living room",
+          "es": "Salón",
+          "de": "Wohnzimmer",
+          "zh": "客厅",
+          "val": "58,80 m²"
+        },
+        {
+          "fr": "Terrasse principale",
+          "en": "Main terrace",
+          "es": "Terraza principal",
+          "de": "Hauptterrasse",
+          "zh": "主露台",
+          "val": "66,52 m²"
+        },
+        {
+          "fr": "Cuisine",
+          "en": "Kitchen",
+          "es": "Cocina",
+          "de": "Küche",
+          "zh": "厨房",
+          "val": "13,98 m²"
+        }
+      ],
+      "features": {
+        "fr": [
+          "Marbre Calacatta revêtement intégral",
+          "Terrasse 66,52 m² BBQ & cuisine africaine",
+          "Couleur personnalisée"
+        ],
+        "en": [
+          "Calacatta marble full coating",
+          "66.52 m² terrace BBQ & African kitchen",
+          "Personalised colour"
+        ],
+        "es": [
+          "Revestimiento mármol Calacatta",
+          "Terraza 66,52 m² BBQ y cocina africana",
+          "Color personalizado"
+        ],
+        "de": [
+          "Calacatta-Marmor Vollverkleidung",
+          "66,52 m² Terrasse mit Grill",
+          "Persönliche Farbwahl"
+        ],
+        "zh": [
+          "卡拉卡塔大理石全覆盖",
+          "66.52平方米露台BBQ和非洲厨房",
+          "个性化颜色选择"
+        ]
+      }
+    }
+  ],
+  "partners": {
+    "world": [
+      {
+        "kind": "world",
+        "code": "TR",
+        "fr": {
+          "country": "Turquie",
+          "focus": "Immobilier, infrastructure & construction. Plus de 50 ans d'expérience."
+        },
+        "en": {
+          "country": "Turkey",
+          "focus": "Real estate, infrastructure & construction. Over 50 years of experience."
+        },
+        "es": {
+          "country": "Turquía",
+          "focus": "Inmobiliaria, infraestructura y construcción."
+        },
+        "de": {
+          "country": "Türkei",
+          "focus": "Immobilien, Infrastruktur & Bau."
+        },
+        "zh": {
+          "country": "土耳其",
+          "focus": "房地产、基础设施和建筑。超过50年的经验。"
+        }
+      },
+      {
+        "kind": "world",
+        "code": "CN",
+        "fr": {
+          "country": "Chine",
+          "focus": "Projets routiers, mines, infrastructure majeure. Capacité de financement exceptionnelle."
+        },
+        "en": {
+          "country": "China",
+          "focus": "Road projects, mining, major infrastructure. Exceptional financing capacity."
+        },
+        "es": {
+          "country": "China",
+          "focus": "Proyectos viales, minería, infraestructura mayor."
+        },
+        "de": {
+          "country": "China",
+          "focus": "Straßenprojekte, Bergbau, Hauptinfrastruktur."
+        },
+        "zh": {
+          "country": "中国",
+          "focus": "道路项目、矿业、重大基础设施。卓越的融资能力。"
+        }
+      },
+      {
+        "kind": "world",
+        "code": "RU",
+        "fr": {
+          "country": "Russie",
+          "focus": "Énergies renouvelables, projets solaires et éoliens. Technologies de pointe pour l'Afrique."
+        },
+        "en": {
+          "country": "Russia",
+          "focus": "Renewable energies, solar and wind projects for Africa."
+        },
+        "es": {
+          "country": "Rusia",
+          "focus": "Energías renovables, proyectos solares y eólicos."
+        },
+        "de": {
+          "country": "Russland",
+          "focus": "Erneuerbare Energien, Solar- und Windprojekte."
+        },
+        "zh": {
+          "country": "俄罗斯",
+          "focus": "可再生能源、太阳能和风能项目。非洲尖端技术。"
+        }
+      },
+      {
+        "kind": "world",
+        "code": "US",
+        "fr": {
+          "country": "États-Unis",
+          "focus": "Ports autonomes, ouvrages d'art et génie civil. Innovation et excellence technologique."
+        },
+        "en": {
+          "country": "United States",
+          "focus": "Autonomous ports, engineering structures and civil engineering."
+        },
+        "es": {
+          "country": "Estados Unidos",
+          "focus": "Puertos autónomos, obras de ingeniería y obra civil."
+        },
+        "de": {
+          "country": "Vereinigte Staaten",
+          "focus": "Autonome Häfen, Ingenieurbauwerke und Tiefbau."
+        },
+        "zh": {
+          "country": "美国",
+          "focus": "自主港口、工程结构和土木工程。创新与技术卓越。"
+        }
+      },
+      {
+        "kind": "world",
+        "code": "MY",
+        "fr": {
+          "country": "Malaisie",
+          "focus": "Agriculture moderne, projets d'État et transfert de technologie. Expertise reconnue mondialement."
+        },
+        "en": {
+          "country": "Malaysia",
+          "focus": "Modern agriculture, state projects and technology transfer."
+        },
+        "es": {
+          "country": "Malasia",
+          "focus": "Agricultura moderna, proyectos estatales y transferencia tecnológica."
+        },
+        "de": {
+          "country": "Malaysia",
+          "focus": "Moderne Landwirtschaft, Staatsprojekte und Technologietransfer."
+        },
+        "zh": {
+          "country": "马来西亚",
+          "focus": "现代农业、国家项目和技术转让。享誉全球的专业知识。"
+        }
+      },
+      {
+        "kind": "world",
+        "code": "GB",
+        "fr": {
+          "country": "Royaume-Uni",
+          "focus": "Levée de fonds, banques d'investissement et structuration financière internationale."
+        },
+        "en": {
+          "country": "United Kingdom",
+          "focus": "Fundraising, investment banks and international financial structuring."
+        },
+        "es": {
+          "country": "Reino Unido",
+          "focus": "Captación de fondos, bancos de inversión y estructuración financiera."
+        },
+        "de": {
+          "country": "Vereinigtes Königreich",
+          "focus": "Kapitalbeschaffung, Investmentbanken und Finanzstrukturierung."
+        },
+        "zh": {
+          "country": "英国",
+          "focus": "筹资、投资银行和国际金融结构。全球金融中心。"
+        }
+      },
+      {
+        "kind": "world",
+        "code": "IN",
+        "fr": {
+          "country": "Inde",
+          "focus": "Transport & Logistique — Flotte de poids lourds, transport intermodal et solutions logistiques pour l'Afrique et l'Asie."
+        },
+        "en": {
+          "country": "India",
+          "focus": "Transport & Logistics — Heavy truck fleet, intermodal transport and logistics solutions for Africa and Asia."
+        },
+        "es": {
+          "country": "India",
+          "focus": "Transporte y Logística — Flota de camiones pesados, transporte intermodal y soluciones logísticas."
+        },
+        "de": {
+          "country": "Indien",
+          "focus": "Transport & Logistik — Schwerlastflotte, intermodaler Transport und Logistiklösungen."
+        },
+        "zh": {
+          "country": "印度",
+          "focus": "运输与物流 — 重型卡车车队、多式联运和非亚洲物流解决方案。"
+        }
+      }
+    ],
+    "africa": [
+      {
+        "kind": "africa",
+        "name": "Sénégal"
+      },
+      {
+        "kind": "africa",
+        "name": "Côte d'Ivoire"
+      },
+      {
+        "kind": "africa",
+        "name": "Nigeria"
+      },
+      {
+        "kind": "africa",
+        "name": "Gabon"
+      },
+      {
+        "kind": "africa",
+        "name": "Ghana"
+      },
+      {
+        "kind": "africa",
+        "name": "Cameroun"
+      },
+      {
+        "kind": "africa",
+        "name": "Mali"
+      },
+      {
+        "kind": "africa",
+        "name": "Burkina Faso"
+      },
+      {
+        "kind": "africa",
+        "name": "Guinée"
+      },
+      {
+        "kind": "africa",
+        "name": "Togo"
+      },
+      {
+        "kind": "africa",
+        "name": "Bénin"
+      }
+    ]
+  },
+  "companies": [
+    {
+      "name": "Terratransport & Industrie Mobile",
+      "logo": "/Images/entreprises/logo-terratransport.png",
+      "sector": {
+        "fr": "Transport & Logistique",
+        "en": "Transport & Logistics",
+        "es": "Transporte y Logística",
+        "de": "Transport & Logistik",
+        "zh": "运输与物流"
+      },
+      "desc": {
+        "fr": "Terratransport & Industrie Mobile est spécialisée dans la commercialisation de poids lourds et la gestion de flottes de camions. Solutions de transport intermodal et logistique pour l'Afrique et l'Asie.",
+        "en": "Terratransport & Industrie Mobile specialises in heavy truck commercialisation and fleet management. Intermodal transport and logistics solutions for Africa and Asia.",
+        "es": "Terratransport & Industrie Mobile está especializada en la comercialización de camiones pesados y la gestión de flotas. Soluciones de transporte intermodal para África y Asia.",
+        "de": "Terratransport & Industrie Mobile ist auf die Vermarktung von Schwerlastfahrzeugen und Flottenmanagement spezialisiert. Intermodale Transport- und Logistiklösungen für Afrika und Asien.",
+        "zh": "Terratransport & Industrie Mobile专门从事重型卡车销售和车队管理。为非洲和亚洲提供多式联运和物流解决方案。"
+      },
+      "website": "https://www.terratransport-sa.com",
+      "country": "Sénégal",
+      "active": true
+    },
+    {
+      "name": "AzaRatti 1 of 1",
+      "logo": "/Images/entreprises/logo-azaratti1of1.png",
+      "sector": {
+        "fr": "Mode & Luxe",
+        "en": "Fashion & Luxury",
+        "es": "Moda y Lujo",
+        "de": "Mode & Luxus",
+        "zh": "时尚与奢侈品"
+      },
+      "desc": {
+        "fr": "AzaRatti 1 of 1 est une marque de mode africaine de luxe spécialisée dans la création de vestes et pièces vestimentaires en édition ultra-limitée. Chaque pièce est unique, artisanale et incarne l'excellence africaine contemporaine.",
+        "en": "AzaRatti 1 of 1 is an African luxury fashion brand specialising in ultra-limited edition jackets and clothing pieces. Each piece is unique, handcrafted and embodies contemporary African excellence.",
+        "es": "AzaRatti 1 of 1 es una marca de moda de lujo africana especializada en chaquetas y prendas de edición ultra-limitada. Cada pieza es única, artesanal y encarna la excelencia africana contemporánea.",
+        "de": "AzaRatti 1 of 1 ist eine afrikanische Luxusmodemarke, spezialisiert auf ultrastreng limitierte Jacken. Jedes Stück ist einzigartig und handgefertigt.",
+        "zh": "AzaRatti 1 of 1是非洲奢侈时尚品牌，专注于超限量版夹克和服装。每件作品都是独一无二的手工艺品。"
+      },
+      "website": "https://www.azaratti1of1.com",
+      "country": "Sénégal",
+      "active": true
+    },
+    {
+      "name": "AzaRatti",
+      "logo": "/Images/entreprises/logo-azaratti.png",
+      "sector": {
+        "fr": "Agroalimentaire & Commerce",
+        "en": "Agri-Food & Trade",
+        "es": "Agroalimentario y Comercio",
+        "de": "Lebensmittel & Handel",
+        "zh": "农产品与贸易"
+      },
+      "desc": {
+        "fr": "AzaRatti est spécialisée dans la vente et la distribution de riz naturel de la meilleure qualité. Un produit authentique, cultivé avec soin et sélectionné selon les plus hauts standards nutritionnels pour les marchés africains et internationaux.",
+        "en": "AzaRatti specialises in the sale and distribution of the finest quality natural rice. An authentic product, carefully cultivated and selected to the highest nutritional standards.",
+        "es": "AzaRatti está especializada en la venta y distribución de arroz natural de la mejor calidad para los mercados africanos e internacionales.",
+        "de": "AzaRatti ist auf den Verkauf und Vertrieb von Natureis höchster Qualität spezialisiert. Ein authentisches Produkt nach höchsten Ernährungsstandards.",
+        "zh": "AzaRatti专注于销售和分销最优质的天然大米。经过精心种植，按照最高营养标准精选。"
+      },
+      "website": "https://www.azaratti.com",
+      "country": "Sénégal",
+      "active": true
+    }
+  ],
+  "projects": [
+    {
+      "category": "Immobilier",
+      "img": "/Images/yaye-dia/cite-vue-aerienne.jpg",
+      "title": {
+        "fr": "Résidence Yaye Dia",
+        "en": "Yaye Dia Residence",
+        "zh": "Yaye Dia住宅"
+      },
+      "desc": {
+        "fr": "300 villas haut standing en Région de Thiès, Sénégal.",
+        "en": "300 high-end villas in Thiès Region, Senegal.",
+        "zh": "塞内加尔蒂耶斯地区300栋高档别墅。"
+      },
+      "waMsg": {
+        "fr": "Bonjour, je suis intéressé(e) par la Résidence Yaye Dia.",
+        "en": "Hello, I am interested in the Yaye Dia Residence."
+      },
+      "active": true
+    },
+    {
+      "category": "Infrastructure",
+      "img": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&q=85",
+      "title": {
+        "fr": "Port Lagunaire de Dabou",
+        "en": "Dabou Lagoon Port",
+        "zh": "达布湖港"
+      },
+      "desc": {
+        "fr": "Port lagunaire en Côte d'Ivoire — $1,7 milliard — BOT.",
+        "en": "Lagoon port in Ivory Coast — $1.7 billion — BOT.",
+        "zh": "科特迪瓦湖港 — 17亿美元 — BOT合同。"
+      },
+      "waMsg": {
+        "fr": "Bonjour, je suis intéressé(e) par le Port de Dabou.",
+        "en": "Hello, I am interested in the Dabou Port."
+      },
+      "active": true
+    },
+    {
+      "category": "Infrastructure",
+      "img": "https://images.unsplash.com/photo-1545987796-200677ee1011?w=600&q=85",
+      "title": {
+        "fr": "Autoroute Abuja-Lagos",
+        "en": "Abuja-Lagos Highway",
+        "zh": "阿布贾-拉各斯高速公路"
+      },
+      "desc": {
+        "fr": "Autoroute au Nigeria — $5,7 milliards — BOT — 467 km.",
+        "en": "Highway in Nigeria — $5.7 billion — BOT — 467 km.",
+        "zh": "尼日利亚高速公路 — 57亿美元 — BOT合同 — 467公里。"
+      },
+      "waMsg": {
+        "fr": "Bonjour, je m'intéresse à l'autoroute Abuja-Lagos.",
+        "en": "Hello, I am interested in the Abuja-Lagos highway."
+      },
+      "active": true
+    }
+  ],
+  "gallery": [
+    {
+      "cat": "overview",
+      "src": "/Images/yaye-dia/cite-vue-aerienne.jpg",
+      "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
+      "fr": "Vue aérienne — Cité Yaye Dia complète",
+      "en": "Aerial view — Complete Yaye Dia City",
+      "es": "Vista aérea — Ciudad Yaye Dia completa",
+      "de": "Luftaufnahme — Vollständige Yaye Dia Stadt"
+    },
+    {
+      "cat": "overview",
+      "src": "/Images/yaye-dia/cite-plan-top.jpg",
+      "fallback": "https://images.unsplash.com/photo-1545987796-200677ee1011?w=800&q=85",
+      "fr": "Plan de masse — 300 villas tracées",
+      "en": "Site plan — 300 plotted villas",
+      "es": "Plan de masa — 300 villas trazadas",
+      "de": "Lageplan — 300 geplante Villen"
+    },
+    {
+      "cat": "overview",
+      "src": "/Images/yaye-dia/cite-commodites-vue.jpg",
+      "fallback": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=85",
+      "fr": "Vue générale — Commodités visibles",
+      "en": "General view — Visible amenities",
+      "es": "Vista general — Comodidades visibles",
+      "de": "Gesamtansicht — Sichtbare Annehmlichkeiten"
+    },
+    {
+      "cat": "overview",
+      "src": "/Images/yaye-dia/cite-voirie.jpg",
+      "fallback": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=85",
+      "fr": "Voirie résidentielle — Palmiers & verdure",
+      "en": "Residential road — Palm trees & greenery",
+      "es": "Vía residencial — Palmeras y vegetación",
+      "de": "Wohnstraße — Palmen und Grünflächen"
+    },
+    {
+      "cat": "overview",
+      "src": "/Images/yaye-dia/commodites.jpg",
+      "fallback": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&q=85",
+      "fr": "Vue aérienne — Rond-point et palmiers",
+      "en": "Aerial — Roundabout and palm trees",
+      "es": "Aérea — Rotonda y palmeras",
+      "de": "Luftaufnahme — Kreisverkehr und Palmen"
+    },
+    {
+      "cat": "exterior",
+      "src": "/Images/yaye-dia/villa-f3-facade.jpg",
+      "fallback": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&q=85",
+      "fr": "Villa F3 — Façade avec jardin tropical",
+      "en": "F3 Villa — Facade with tropical garden",
+      "es": "Villa F3 — Fachada con jardín tropical",
+      "de": "F3 Villa — Fassade mit tropischem Garten"
+    },
+    {
+      "cat": "exterior",
+      "src": "/Images/yaye-dia/villa-f4pp-facade.jpg",
+      "fallback": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=85",
+      "fr": "Villa F4 Plein Pied — Façade moderne",
+      "en": "F4 Single-Story — Modern facade",
+      "es": "Villa F4 Planta Baja — Fachada moderna",
+      "de": "F4 Einstöckig — Moderne Fassade"
+    },
+    {
+      "cat": "exterior",
+      "src": "/Images/yaye-dia/villa-f4duplex.jpg",
+      "fallback": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=85",
+      "fr": "Villa F4 Duplex — Façade nuit illuminée",
+      "en": "F4 Duplex — Illuminated night facade",
+      "es": "Villa F4 Dúplex — Fachada nocturna iluminada",
+      "de": "F4 Duplex — Beleuchtete Nachtfassade"
+    },
+    {
+      "cat": "exterior",
+      "src": "/Images/yaye-dia/villa-f4duplex-nuit.jpg",
+      "fallback": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=85",
+      "fr": "Rangée Villas F4 Duplex — Nuit étoilée",
+      "en": "F4 Duplex Row — Starry night",
+      "es": "Fila Villas F4 Dúplex — Noche estrellada",
+      "de": "F4 Duplex Reihe — Sternennacht"
+    },
+    {
+      "cat": "exterior",
+      "src": "/Images/yaye-dia/villa-f5.jpg",
+      "fallback": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&q=85",
+      "fr": "Villa F5 — Façade haut standing nuit",
+      "en": "F5 Villa — High-end night facade",
+      "es": "Villa F5 — Fachada de alto standing noche",
+      "de": "F5 Villa — Hochwertige Nachtfassade"
+    },
+    {
+      "cat": "exterior",
+      "src": "/Images/yaye-dia/villa-f5-facade2.jpg",
+      "fallback": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&q=85",
+      "fr": "Villa F5 — Vue de face variante",
+      "en": "F5 Villa — Front view variant",
+      "es": "Villa F5 — Vista frontal variante",
+      "de": "F5 Villa — Vorderansicht Variante"
+    },
+    {
+      "cat": "exterior",
+      "src": "/Images/yaye-dia/villa-f5-facade3.jpg",
+      "fallback": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&q=85",
+      "fr": "Villa F5 — 3 niveaux + balcons vitrés",
+      "en": "F5 Villa — 3 floors + glass balconies",
+      "es": "Villa F5 — 3 plantas + balcones de vidrio",
+      "de": "F5 Villa — 3 Etagen + Glasbalkone"
+    },
+    {
+      "cat": "exterior",
+      "src": "/Images/yaye-dia/villa-piscine.jpg",
+      "fallback": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=85",
+      "fr": "Villa avec piscine — Terrasse panoramique",
+      "en": "Villa with pool — Panoramic terrace",
+      "es": "Villa con piscina — Terraza panorámica",
+      "de": "Villa mit Pool — Panoramaterrasse"
+    },
+    {
+      "cat": "exterior",
+      "src": "/Images/yaye-dia/villa-piscine2.jpg",
+      "fallback": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=85",
+      "fr": "Villa moderne — Piscine & transats luxueux",
+      "en": "Modern villa — Pool & luxury sun loungers",
+      "es": "Villa moderna — Piscina y tumbonas de lujo",
+      "de": "Moderne Villa — Pool & Luxus-Liegestühle"
+    },
+    {
+      "cat": "plans",
+      "src": "/Images/yaye-dia/villa-f3-plan.jpg",
+      "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
+      "fr": "Plan 3D F3 — Vue aérienne parcelle",
+      "en": "F3 3D Plan — Aerial plot view",
+      "es": "Plan 3D F3 — Vista aérea parcela",
+      "de": "F3 3D Plan — Luftaufnahme Grundstück"
+    },
+    {
+      "cat": "plans",
+      "src": "/Images/yaye-dia/villa-f3-plan2.jpg",
+      "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
+      "fr": "Plan 3D F3 — Intérieur détaillé",
+      "en": "F3 3D Plan — Detailed interior",
+      "es": "Plan 3D F3 — Interior detallado",
+      "de": "F3 3D Plan — Detailliertes Innere"
+    },
+    {
+      "cat": "plans",
+      "src": "/Images/yaye-dia/villa-f4pp-plan.jpg",
+      "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
+      "fr": "Plan 3D F4 Plein Pied — Composition",
+      "en": "F4 Single-Story 3D Plan — Layout",
+      "es": "Plan 3D F4 Planta Baja — Composición",
+      "de": "F4 Einstöckig 3D Plan — Grundriss"
+    },
+    {
+      "cat": "plans",
+      "src": "/Images/yaye-dia/villa-f5-plan-aerien.jpg",
+      "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
+      "fr": "Plan aérien F5 — Terrasse & espaces",
+      "en": "F5 Aerial plan — Terrace & spaces",
+      "es": "Plan aéreo F5 — Terraza y espacios",
+      "de": "F5 Luftplan — Terrasse & Räume"
+    },
+    {
+      "cat": "plans",
+      "src": "/Images/yaye-dia/villa-f5-terrasse-plan.jpg",
+      "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
+      "fr": "Plan 3D Terrasse F5 — Barbecue & détente",
+      "en": "F5 3D Terrace Plan — BBQ & relaxation",
+      "es": "Plan 3D Terraza F5 — Barbacoa y relax",
+      "de": "F5 3D Terrassenplan — Grill & Entspannung"
+    },
+    {
+      "cat": "plans",
+      "src": "/Images/yaye-dia/villa-f4duplex-plan.jpg",
+      "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
+      "fr": "Plan 3D F4 Duplex — RDC + Étage",
+      "en": "F4 Duplex 3D Plan — Ground + Upper floor",
+      "es": "Plan 3D F4 Dúplex — PB + Planta alta",
+      "de": "F4 Duplex 3D Plan — EG + OG"
+    },
+    {
+      "cat": "interior",
+      "src": "/Images/yaye-dia/salon-f3.jpg",
+      "fallback": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=85",
+      "fr": "Salon F3 — Espace de vie ouvert & lumineux",
+      "en": "F3 Living room — Open & bright living space",
+      "es": "Salón F3 — Espacio de vida abierto y luminoso",
+      "de": "F3 Wohnzimmer — Offener heller Wohnraum"
+    },
+    {
+      "cat": "interior",
+      "src": "/Images/yaye-dia/salon-f4.jpg",
+      "fallback": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=85",
+      "fr": "Salon F4 Duplex — Canapé & escalier",
+      "en": "F4 Duplex Living room — Sofa & staircase",
+      "es": "Salón F4 Dúplex — Sofá y escalera",
+      "de": "F4 Duplex Wohnzimmer — Sofa & Treppe"
+    },
+    {
+      "cat": "interior",
+      "src": "/Images/yaye-dia/salon-duplex.jpg",
+      "fallback": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=85",
+      "fr": "Salon de luxe — Marbre, bois & verdure",
+      "en": "Luxury living room — Marble, wood & plants",
+      "es": "Salón de lujo — Mármol, madera y plantas",
+      "de": "Luxus-Wohnzimmer — Marmor, Holz & Pflanzen"
+    },
+    {
+      "cat": "interior",
+      "src": "/Images/yaye-dia/villa-f5-terrasse.jpg",
+      "fallback": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=85",
+      "fr": "Terrasse F5 — Salon extérieur & barbecue",
+      "en": "F5 Terrace — Outdoor lounge & barbecue",
+      "es": "Terraza F5 — Sala exterior y barbacoa",
+      "de": "F5 Terrasse — Außenwohnbereich & Grill"
+    },
+    {
+      "cat": "interior",
+      "src": "/Images/yaye-dia/cuisine.jpg",
+      "fallback": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=85",
+      "fr": "Cuisine — Marbre Calacatta & finitions",
+      "en": "Kitchen — Calacatta marble & finishes",
+      "es": "Cocina — Mármol Calacatta y acabados",
+      "de": "Küche — Calacatta-Marmor & Oberflächen"
+    },
+    {
+      "cat": "interior",
+      "src": "/Images/yaye-dia/master.jpg",
+      "fallback": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=85",
+      "fr": "Master Room — Dressing & salle de bain",
+      "en": "Master Room — Dressing & bathroom",
+      "es": "Master Room — Vestidor y baño",
+      "de": "Master Room — Ankleidezimmer & Bad"
+    },
+    {
+      "cat": "buildings",
+      "src": "/Images/yaye-dia/immeuble-nuit.jpg",
+      "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
+      "fr": "Immeuble résidentiel — Cité Yaye Dia nuit",
+      "en": "Residential building — Yaye Dia City night",
+      "es": "Edificio residencial — Ciudad Yaye Dia noche",
+      "de": "Wohngebäude — Yaye Dia Stadt Nacht"
+    },
+    {
+      "cat": "buildings",
+      "src": "/Images/yaye-dia/immeuble-jour.jpg",
+      "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
+      "fr": "Immeuble Yaye Dia — Façade moderne jour",
+      "en": "Yaye Dia Building — Modern daytime facade",
+      "es": "Edificio Yaye Dia — Fachada moderna día",
+      "de": "Yaye Dia Gebäude — Moderne Tagesfassade"
+    }
+  ],
+  "videos": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=VOTRE_LIEN_ICI",
+      "thumbnail": "/Images/yaye-dia/cite-vue-aerienne.jpg",
+      "fallback": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&q=85",
+      "duration": "2:45",
+      "fr": {
+        "title": "Résidence Yaye Dia — Présentation Officielle",
+        "desc": "Découvrez en vidéo notre programme immobilier d'exception : 300 villas haut standing en Région de Thiès, Sénégal."
+      },
+      "en": {
+        "title": "Yaye Dia Residence — Official Presentation",
+        "desc": "Discover our exceptional real estate programme in video: 300 high-end villas in the Thiès Region, Senegal."
+      },
+      "es": {
+        "title": "Residencia Yaye Dia — Presentación Oficial",
+        "desc": "Descubra en video nuestro excepcional programa inmobiliario: 300 villas de alto standing en la Región de Thiès, Senegal."
+      },
+      "de": {
+        "title": "Yaye Dia Residenz — Offizielle Präsentation",
+        "desc": "Entdecken Sie unser außergewöhnliches Immobilienprogramm im Video: 300 hochwertige Villen in der Thiès-Region, Senegal."
+      },
+      "zh": {
+        "title": "Yaye Dia住宅 — 官方介绍",
+        "desc": "通过视频探索我们卓越的房地产项目：塞内加尔蒂耶斯地区的300栋高档别墅。"
+      }
+    },
+    {
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@assane.design.con",
+      "thumbnail": "/Images/yaye-dia/villa-f4duplex-nuit.jpg",
+      "fallback": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=85",
+      "duration": "0:58",
+      "fr": {
+        "title": "Cité Yaye Dia — Vue Nuit Spectaculaire",
+        "desc": "La Cité Yaye Dia illuminée de nuit. Nos villas F4 Duplex dans toute leur splendeur sous un ciel étoilé."
+      },
+      "en": {
+        "title": "Yaye Dia City — Spectacular Night View",
+        "desc": "Yaye Dia City illuminated at night. Our F4 Duplex villas in all their splendour under a starry sky."
+      },
+      "es": {
+        "title": "Ciudad Yaye Dia — Vista Nocturna Espectacular",
+        "desc": "La Ciudad Yaye Dia iluminada de noche. Nuestras villas F4 Dúplex en todo su esplendor bajo un cielo estrellado."
+      },
+      "de": {
+        "title": "Yaye Dia Stadt — Spektakuläre Nachtansicht",
+        "desc": "Die Yaye Dia Stadt bei Nacht beleuchtet. Unsere F4 Duplex Villen in voller Pracht unter einem Sternenhimmel."
+      },
+      "zh": {
+        "title": "Yaye Dia城 — 壮观夜景",
+        "desc": "夜幕下灯火璧煌的Yaye Dia城。我们的F4复式别墅在星空下尽显华丽风采。"
+      }
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/groupendoyeafricaholding",
+      "thumbnail": "/Images/yaye-dia/cite-plan-top.jpg",
+      "fallback": "https://images.unsplash.com/photo-1545987796-200677ee1011?w=800&q=85",
+      "duration": "4:10",
+      "fr": {
+        "title": "Plan Masse — 300 Villas Tracées",
+        "desc": "Vue aérienne du plan masse de la Cité Yaye Dia. 300 villas soigneusement tracées sur 225 m² chacune."
+      },
+      "en": {
+        "title": "Site Plan — 300 Plotted Villas",
+        "desc": "Aerial view of the Yaye Dia City site plan. 300 carefully plotted villas on 225 m² each."
+      },
+      "es": {
+        "title": "Plan de Masa — 300 Villas Trazadas",
+        "desc": "Vista aérea del plan de masa de la Ciudad Yaye Dia. 300 villas cuidadosamente trazadas en 225 m² cada una."
+      },
+      "de": {
+        "title": "Lageplan — 300 Geplante Villen",
+        "desc": "Luftaufnahme des Lageplans der Yaye Dia Stadt. 300 sorgfältig geplante Villen auf je 225 m²."
+      },
+      "zh": {
+        "title": "总平面图 — 300栋规划别墅",
+        "desc": "Yaye Dia城总平面图鸟瞰图。300栋精心规划的别墅，每栋占地225平方米。"
+      }
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/assanedesignconception",
+      "thumbnail": "/Images/yaye-dia/cite-commodites-vue.jpg",
+      "fallback": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=85",
+      "duration": "1:30",
+      "fr": {
+        "title": "Commodités — Une Cité Complète",
+        "desc": "Complexe sportif, terrain omnisports, mosquée, centre commercial, district sanitaire — tout ce dont vous avez besoin."
+      },
+      "en": {
+        "title": "Amenities — A Complete City",
+        "desc": "Sports complex, multi-purpose field, mosque, shopping centre, health district — everything you need."
+      },
+      "es": {
+        "title": "Comodidades — Una Ciudad Completa",
+        "desc": "Complejo deportivo, campo polideportivo, mezquita, centro comercial, distrito sanitario: todo lo que necesita."
+      },
+      "de": {
+        "title": "Annehmlichkeiten — Eine vollständige Stadt",
+        "desc": "Sportkomplex, Mehrzweckspielfeld, Moschee, Einkaufszentrum, Gesundheitsbezirk — alles was Sie brauchen."
+      },
+      "zh": {
+        "title": "配套设施 — 一座完整的城市",
+        "desc": "体育中心、多功能运动场、清真寺、购物中心、医疗区 — 应有尽有。"
+      }
+    }
+  ],
+  "ads": []
+}
