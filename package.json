@@ -5,13 +5,15 @@
   "description": "API sécurisée — Groupe Ndoye Africa Holding (administration, contenu, médias)",
   "type": "module",
   "main": "src/server.js",
-  "engines": { "node": ">=18.18" },
+  "engines": {
+    "node": ">=18.18"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
-    "seed": "node scripts/seed.js",
-    "create-admin": "node scripts/createAdmin.js",
-    "smoke-test": "node scripts/smoke-test.js"
+    "seed": "node script/seed.js",
+    "create-admin": "node script/createAdmin.js",
+    "smoke-test": "node script/smoke-test.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
