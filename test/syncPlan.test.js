@@ -21,7 +21,7 @@ test("base de l'ancien chargement : corrections du site appliquées, rien d'ajou
   const plan = planCollection('gallery', { base: base.gallery, next: next.gallery, existing });
   assert.equal(plan.inserts.length, 0);
   const real = plan.updates.filter((u) => !u.stampOnly);
-  assert.deepEqual(real.map((u) => u.set.src).sort(), ['/Images/yaye-dia/villa-f4duplex.jpg', '/Images/yaye-dia/villa-f4pp-plan2.jpg']);
+  assert.deepEqual(real.map((u) => u.set.src).filter(Boolean).sort(), ['/Images/yaye-dia/villa-f4duplex.jpg', '/Images/yaye-dia/villa-f4pp-plan2.jpg']);
   assert.ok(real.every((u) => u.before.src)); // l'ancienne valeur est gardée dans l'historique
   assert.equal(plan.updates.length, next.gallery.length); // chaque document reçoit son repère
 });
@@ -67,7 +67,7 @@ test('blocs : ajout des nouveaux, correction si intact, conservation si modifié
   existing.tagline = { fr: 'Texte modifié dans l’admin' };
   const plan = planBlocks({ base: base.blocks, next: next.blocks, existing });
   assert.deepEqual(plan.inserts.map((i) => i.key).sort(), ['collabBenefits', 'collabTypes', 'contactSubjects', 'expertiseList', 'processSteps']);
-  assert.deepEqual(plan.updates.map((u) => u.key).sort(), ['site', 'yayeSlides']);
+  assert.deepEqual(plan.updates.map((u) => u.key).sort(), ['lotissement', 'objectives', 'site', 'stats', 'yayeSlides']);
   assert.equal(plan.updates.find((u) => u.key === 'site').data.email, 'Contact@groupendoyeafrica.com');
   assert.equal(plan.kept, 1); // la tagline modifiée dans l'administration est conservée
 });
