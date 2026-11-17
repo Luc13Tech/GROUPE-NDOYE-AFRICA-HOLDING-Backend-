@@ -77,3 +77,16 @@ test('relancer la synchronisation ne change plus rien', () => {
   const plan = planCollection('gallery', { base: next.gallery, next: next.gallery, existing });
   assert.equal(plan.inserts.length + plan.updates.length, 0);
 });
+
+test('un élément renommé dans le site est mis à jour sur place, sans doublon', () => {
+  const before = clone(next.videos);
+  const after = clone(next.videos);
+  after[0].fr.title = 'Titre corrigé dans le site';
+  const existing = legacyDocs(before).map((d) => ({ ...d, seedKey: KEYS.videos(d) }));
+  const plan = planCollection('videos', { base: before, next: after, existing });
+  assert.equal(plan.inserts.length, 0);
+  const u = plan.updates.find((x) => !x.stampOnly);
+  assert.equal(u.id, 'id0');
+  assert.equal(u.set.fr.title, 'Titre corrigé dans le site');
+  assert.equal(u.set.seedKey, KEYS.videos(after[0]));
+});

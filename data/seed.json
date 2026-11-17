@@ -55,11 +55,11 @@
       },
       {
         "val": "300",
-        "fr": "Villas Yaye Dia",
-        "en": "Yaye Dia Villas",
-        "es": "Villas Yaye Dia",
-        "de": "Yaye Dia Villen",
-        "zh": "Yaye Dia别墅"
+        "fr": "Villas de la Résidence Moderne",
+        "en": "Modern Residence Villas",
+        "es": "Villas de la Residencia Moderna",
+        "de": "Villen der Modernen Residenz",
+        "zh": "现代住宅别墅"
       },
       {
         "val": "11",
@@ -298,23 +298,23 @@
         "img": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=600&q=85",
         "fr": {
           "title": "Développement Immobilier",
-          "desc": "300+ villas Yaye Dia, Programme Eden ($700M)"
+          "desc": "300+ villas de la Résidence Moderne, Programme Eden ($700M)"
         },
         "en": {
           "title": "Real Estate Development",
-          "desc": "300+ Yaye Dia villas, Eden Programme ($700M)"
+          "desc": "300+ Modern Residence villas, Eden Programme ($700M)"
         },
         "es": {
           "title": "Desarrollo Inmobiliario",
-          "desc": "300+ villas Yaye Dia, Programa Eden ($700M)"
+          "desc": "300+ villas de la Residencia Moderna, Programa Eden ($700M)"
         },
         "de": {
           "title": "Immobilienentwicklung",
-          "desc": "300+ Yaye Dia Villen, Eden-Programm ($700M)"
+          "desc": "300+ Villen der Modernen Residenz, Eden-Programm ($700M)"
         },
         "zh": {
           "title": "房地产开发",
-          "desc": "300多栋Yaye Dia别墅，伊甸园计划 (7亿美元)"
+          "desc": "300多栋现代住宅别墅，伊甸园计划 (7亿美元)"
         }
       },
       {
@@ -530,7 +530,7 @@
     "lotissement": {
       "fr": {
         "title": "Lotissement Sur Mesure",
-        "desc": "La Cité Yaye Dia est conçue selon les standards modernes d'urbanisme. Chaque élément est pensé pour offrir confort, sécurité et durabilité aux 300 familles.",
+        "desc": "La Résidence Moderne est conçue selon les standards modernes d'urbanisme. Chaque élément est pensé pour offrir confort, sécurité et durabilité aux 300 familles.",
         "items": [
           {
             "t": "Éclairage Solaire",
@@ -552,7 +552,7 @@
       },
       "en": {
         "title": "Tailored Development",
-        "desc": "Yaye Dia City is designed to modern urban planning standards. Every element is designed for comfort, safety and durability for 300 families.",
+        "desc": "Modern Residence is designed to modern urban planning standards. Every element is designed for comfort, safety and durability for 300 families.",
         "items": [
           {
             "t": "Solar Lighting",
@@ -574,7 +574,7 @@
       },
       "es": {
         "title": "Urbanización a Medida",
-        "desc": "La Ciudad Yaye Dia está diseñada según los estándares modernos de planificación urbana.",
+        "desc": "La Residencia Moderna está diseñada según los estándares modernos de planificación urbana.",
         "items": [
           {
             "t": "Alumbrado Solar",
@@ -596,7 +596,7 @@
       },
       "de": {
         "title": "Maßgeschneiderte Erschließung",
-        "desc": "Die Yaye Dia Stadt ist nach modernen Stadtplanungsstandards gestaltet.",
+        "desc": "Die Moderne Residenz ist nach modernen Stadtplanungsstandards gestaltet.",
         "items": [
           {
             "t": "Solarbeleuchtung",
@@ -618,7 +618,7 @@
       },
       "zh": {
         "title": "定制化开发",
-        "desc": "Yaye Dia城按照现代城市规划标准设计，为300个家庭提供舒适、安全和耐久的居住环境。",
+        "desc": "现代住宅按照现代城市规划标准设计，为300个家庭提供舒适、安全和耐久的居住环境。",
         "items": [
           {
             "t": "太阳能照明",
@@ -739,7 +739,7 @@
         "en": {
           "tag": "The Art of Modern Living",
           "title": "F5 Villa — Premium",
-          "sub": "340 m² built — Yaye Dia City"
+          "sub": "340 m² built — Modern Residence"
         },
         "es": {
           "tag": "El Arte de Vivir Moderno",
@@ -754,7 +754,7 @@
         "zh": {
           "tag": "现代生活艺术",
           "title": "F5豪华别墅",
-          "sub": "340平方米建筑 — Yaye Dia城"
+          "sub": "340平方米建筑 — 现代住宅"
         }
       },
       {
@@ -1968,9 +1968,9 @@
       "category": "Immobilier",
       "img": "/Images/yaye-dia/cite-vue-aerienne.jpg",
       "title": {
-        "fr": "Résidence Yaye Dia",
-        "en": "Yaye Dia Residence",
-        "zh": "Yaye Dia住宅"
+        "fr": "Résidence Moderne",
+        "en": "Modern Residence",
+        "zh": "现代住宅"
       },
       "desc": {
         "fr": "300 villas haut standing en Région de Thiès, Sénégal.",
@@ -1978,8 +1978,8 @@
         "zh": "塞内加尔蒂耶斯地区300栋高档别墅。"
       },
       "waMsg": {
-        "fr": "Bonjour, je suis intéressé(e) par la Résidence Yaye Dia.",
-        "en": "Hello, I am interested in the Yaye Dia Residence."
+        "fr": "Bonjour, je suis intéressé(e) par la Résidence Moderne.",
+        "en": "Hello, I am interested in the Modern Residence."
       }
     },
     {
@@ -2026,10 +2026,10 @@
       "cat": "overview",
       "src": "/Images/yaye-dia/cite-vue-aerienne.jpg",
       "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
-      "fr": "Vue aérienne — Cité Yaye Dia complète",
-      "en": "Aerial view — Complete Yaye Dia City",
-      "es": "Vista aérea — Ciudad Yaye Dia completa",
-      "de": "Luftaufnahme — Vollständige Yaye Dia Stadt"
+      "fr": "Vue aérienne — Résidence Moderne complète",
+      "en": "Aerial view — Complete Modern Residence",
+      "es": "Vista aérea — Residencia Moderna completa",
+      "de": "Luftaufnahme — Vollständige Moderne Residenz"
     },
     {
       "cat": "overview",
@@ -2260,19 +2260,19 @@
       "cat": "buildings",
       "src": "/Images/yaye-dia/immeuble-nuit.jpg",
       "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
-      "fr": "Immeuble résidentiel — Cité Yaye Dia nuit",
-      "en": "Residential building — Yaye Dia City night",
-      "es": "Edificio residencial — Ciudad Yaye Dia noche",
-      "de": "Wohngebäude — Yaye Dia Stadt Nacht"
+      "fr": "Immeuble résidentiel — Résidence Moderne de nuit",
+      "en": "Residential building — Modern Residence at night",
+      "es": "Edificio residencial — Residencia Moderna de noche",
+      "de": "Wohngebäude — Moderne Residenz bei Nacht"
     },
     {
       "cat": "buildings",
       "src": "/Images/yaye-dia/immeuble-jour.jpg",
       "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
-      "fr": "Immeuble Yaye Dia — Façade moderne jour",
-      "en": "Yaye Dia Building — Modern daytime facade",
-      "es": "Edificio Yaye Dia — Fachada moderna día",
-      "de": "Yaye Dia Gebäude — Moderne Tagesfassade"
+      "fr": "Immeuble de la Résidence Moderne — Façade moderne jour",
+      "en": "Modern Residence Building — Modern daytime facade",
+      "es": "Edificio de la Residencia Moderna — Fachada moderna día",
+      "de": "Gebäude der Modernen Residenz — Moderne Tagesfassade"
     }
   ],
   "videos": [
@@ -2283,23 +2283,23 @@
       "fallback": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&q=85",
       "duration": "2:45",
       "fr": {
-        "title": "Résidence Yaye Dia — Présentation Officielle",
+        "title": "Résidence Moderne — Présentation Officielle",
         "desc": "Découvrez en vidéo notre programme immobilier d'exception : 300 villas haut standing en Région de Thiès, Sénégal."
       },
       "en": {
-        "title": "Yaye Dia Residence — Official Presentation",
+        "title": "Modern Residence — Official Presentation",
         "desc": "Discover our exceptional real estate programme in video: 300 high-end villas in the Thiès Region, Senegal."
       },
       "es": {
-        "title": "Residencia Yaye Dia — Presentación Oficial",
+        "title": "Residencia Moderna — Presentación Oficial",
         "desc": "Descubra en video nuestro excepcional programa inmobiliario: 300 villas de alto standing en la Región de Thiès, Senegal."
       },
       "de": {
-        "title": "Yaye Dia Residenz — Offizielle Präsentation",
+        "title": "Moderne Residenz — Offizielle Präsentation",
         "desc": "Entdecken Sie unser außergewöhnliches Immobilienprogramm im Video: 300 hochwertige Villen in der Thiès-Region, Senegal."
       },
       "zh": {
-        "title": "Yaye Dia住宅 — 官方介绍",
+        "title": "现代住宅 — 官方介绍",
         "desc": "通过视频探索我们卓越的房地产项目：塞内加尔蒂耶斯地区的300栋高档别墅。"
       }
     },
@@ -2310,24 +2310,24 @@
       "fallback": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=85",
       "duration": "0:58",
       "fr": {
-        "title": "Cité Yaye Dia — Vue Nuit Spectaculaire",
-        "desc": "La Cité Yaye Dia illuminée de nuit. Nos villas F4 Duplex dans toute leur splendeur sous un ciel étoilé."
+        "title": "Résidence Moderne — Vue Nuit Spectaculaire",
+        "desc": "La Résidence Moderne illuminée de nuit. Nos villas F4 Duplex dans toute leur splendeur sous un ciel étoilé."
       },
       "en": {
-        "title": "Yaye Dia City — Spectacular Night View",
-        "desc": "Yaye Dia City illuminated at night. Our F4 Duplex villas in all their splendour under a starry sky."
+        "title": "Modern Residence — Spectacular Night View",
+        "desc": "Modern Residence illuminated at night. Our F4 Duplex villas in all their splendour under a starry sky."
       },
       "es": {
-        "title": "Ciudad Yaye Dia — Vista Nocturna Espectacular",
-        "desc": "La Ciudad Yaye Dia iluminada de noche. Nuestras villas F4 Dúplex en todo su esplendor bajo un cielo estrellado."
+        "title": "Residencia Moderna — Vista Nocturna Espectacular",
+        "desc": "La Residencia Moderna iluminada de noche. Nuestras villas F4 Dúplex en todo su esplendor bajo un cielo estrellado."
       },
       "de": {
-        "title": "Yaye Dia Stadt — Spektakuläre Nachtansicht",
-        "desc": "Die Yaye Dia Stadt bei Nacht beleuchtet. Unsere F4 Duplex Villen in voller Pracht unter einem Sternenhimmel."
+        "title": "Moderne Residenz — Spektakuläre Nachtansicht",
+        "desc": "Die Moderne Residenz bei Nacht beleuchtet. Unsere F4 Duplex Villen in voller Pracht unter einem Sternenhimmel."
       },
       "zh": {
-        "title": "Yaye Dia城 — 壮观夜景",
-        "desc": "夜幕下灯火璧煌的Yaye Dia城。我们的F4复式别墅在星空下尽显华丽风采。"
+        "title": "现代住宅 — 壮观夜景",
+        "desc": "夜幕下灯火璧煌的现代住宅。我们的F4复式别墅在星空下尽显华丽风采。"
       }
     },
     {
@@ -2338,23 +2338,23 @@
       "duration": "4:10",
       "fr": {
         "title": "Plan Masse — 300 Villas Tracées",
-        "desc": "Vue aérienne du plan masse de la Cité Yaye Dia. 300 villas soigneusement tracées sur 225 m² chacune."
+        "desc": "Vue aérienne du plan masse de la Résidence Moderne. 300 villas soigneusement tracées sur 225 m² chacune."
       },
       "en": {
         "title": "Site Plan — 300 Plotted Villas",
-        "desc": "Aerial view of the Yaye Dia City site plan. 300 carefully plotted villas on 225 m² each."
+        "desc": "Aerial view of the Modern Residence site plan. 300 carefully plotted villas on 225 m² each."
       },
       "es": {
         "title": "Plan de Masa — 300 Villas Trazadas",
-        "desc": "Vista aérea del plan de masa de la Ciudad Yaye Dia. 300 villas cuidadosamente trazadas en 225 m² cada una."
+        "desc": "Vista aérea del plan de masa de la Residencia Moderna. 300 villas cuidadosamente trazadas en 225 m² cada una."
       },
       "de": {
         "title": "Lageplan — 300 Geplante Villen",
-        "desc": "Luftaufnahme des Lageplans der Yaye Dia Stadt. 300 sorgfältig geplante Villen auf je 225 m²."
+        "desc": "Luftaufnahme des Lageplans der Modernen Residenz. 300 sorgfältig geplante Villen auf je 225 m²."
       },
       "zh": {
         "title": "总平面图 — 300栋规划别墅",
-        "desc": "Yaye Dia城总平面图鸟瞰图。300栋精心规划的别墅，每栋占地225平方米。"
+        "desc": "现代住宅总平面图鸟瞰图。300栋精心规划的别墅，每栋占地225平方米。"
       }
     },
     {
