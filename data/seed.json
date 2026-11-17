@@ -5,7 +5,7 @@
       "short": "G.N.A.H",
       "phone": "+221 77 939 84 84",
       "whatsapp": "221779398484",
-      "email": "Contact@groupendoyefrica.com",
+      "email": "Contact@groupendoyeafrica.com",
       "address_fr": "Cité Baobab, Sénégal",
       "social": {
         "facebook": "https://www.facebook.com/groupendoyeafricaholding",
@@ -730,7 +730,7 @@
     },
     "yayeSlides": [
       {
-        "img": "/Images/yaye-dia/villa-f5-facade3.jpg",
+        "img": "/Images/yaye-dia/Image-villa.jpg",
         "fr": {
           "tag": "L'Art de vivre Moderne",
           "title": "Villa F5 — Très Haut Standing",
@@ -841,7 +841,345 @@
           "sub": "高端精装修"
         }
       }
-    ]
+    ],
+    "collabBenefits": [
+      {
+        "fr": {
+          "t": "Réseau International",
+          "d": "Accédez à notre réseau dans 6 pays et 11 marchés africains. Des opportunités à forte valeur ajoutée sur tout le continent."
+        },
+        "en": {
+          "t": "International Network",
+          "d": "Access our network in 6 countries and 11 African markets. High value-added opportunities across the entire continent."
+        },
+        "es": {
+          "t": "Red Internacional",
+          "d": "Acceda a nuestra red en 6 países y 11 mercados africanos. Oportunidades de alto valor añadido en todo el continente."
+        },
+        "de": {
+          "t": "Internationales Netzwerk",
+          "d": "Zugang zu unserem Netzwerk in 6 Ländern und 11 afrikanischen Märkten. Hochwertige Möglichkeiten auf dem gesamten Kontinent."
+        },
+        "zh": {
+          "t": "国际网络",
+          "d": "access我们在6个国家和11个非洲市场的网络。覆盖整个大陆的高价值机遇。"
+        }
+      },
+      {
+        "fr": {
+          "t": "Projets Structurés",
+          "d": "Bénéficiez de notre expertise en structuration de projets pour maximiser la faisabilité et minimiser les risques à chaque étape."
+        },
+        "en": {
+          "t": "Structured Projects",
+          "d": "Benefit from our project structuring expertise to maximise feasibility and minimise risks at every stage."
+        },
+        "es": {
+          "t": "Proyectos Estructurados",
+          "d": "Benefíciese de nuestra experiencia en estructuración de proyectos para maximizar la viabilidad y minimizar los riesgos en cada etapa."
+        },
+        "de": {
+          "t": "Strukturierte Projekte",
+          "d": "Profitieren Sie von unserer Projektstrukturierungsexpertise, um die Machbarkeit zu maximieren und Risiken in jeder Phase zu minimieren."
+        },
+        "zh": {
+          "t": "结构化项目",
+          "d": "借助我们的项目结构化专业知识，在每个阶段最大化可行性并最小化风险。"
+        }
+      },
+      {
+        "fr": {
+          "t": "Financement Accessible",
+          "d": "Accédez à nos partenaires bancaires mondiaux pour le financement de vos projets privés ou publics en Afrique."
+        },
+        "en": {
+          "t": "Accessible Financing",
+          "d": "Access our global banking partners for the financing of your private or public projects in Africa."
+        },
+        "es": {
+          "t": "Financiación Accesible",
+          "d": "Acceda a nuestros socios bancarios mundiales para la financiación de sus proyectos privados o públicos en África."
+        },
+        "de": {
+          "t": "Zugängliche Finanzierung",
+          "d": "Zugang zu unseren globalen Bankpartnern für die Finanzierung Ihrer privaten oder öffentlichen Projekte in Afrika."
+        },
+        "zh": {
+          "t": "便捷融资",
+          "d": "通过我们的全球银行合作伙伴，为您在非洲的私人或公共项目提供融资支持。"
+        }
+      },
+      {
+        "fr": {
+          "t": "Impact Durable",
+          "d": "Participez à des projets qui transforment réellement les économies africaines tout en générant des rendements attractifs pour vos investissements."
+        },
+        "en": {
+          "t": "Lasting Impact",
+          "d": "Participate in projects that genuinely transform African economies while generating attractive returns for your investments."
+        },
+        "es": {
+          "t": "Impacto Duradero",
+          "d": "Participe en proyectos que realmente transforman las economías africanas generando retornos atractivos para sus inversiones."
+        },
+        "de": {
+          "t": "Nachhaltige Wirkung",
+          "d": "Beteiligen Sie sich an Projekten, die afrikanische Volkswirtschaften wirklich transformieren und gleichzeitig attraktive Renditen für Ihre Investitionen erzielen."
+        },
+        "zh": {
+          "t": "持久影响",
+          "d": "参与真正改变非洲经济的项目，同时为您的投资带来可观的回报。"
+        }
+      },
+      {
+        "fr": {
+          "t": "Équipe d'Experts",
+          "d": "Collaborez avec nos ingénieurs, architectes et spécialistes qui apportent leur expertise technique et leur connaissance du terrain africain."
+        },
+        "en": {
+          "t": "Expert Team",
+          "d": "Collaborate with our engineers, architects and specialists who bring technical expertise and knowledge of the African landscape."
+        },
+        "es": {
+          "t": "Equipo de Expertos",
+          "d": "Colabore con nuestros ingenieros, arquitectos y especialistas que aportan experiencia técnica y conocimiento del terreno africano."
+        },
+        "de": {
+          "t": "Expertenteam",
+          "d": "Arbeiten Sie mit unseren Ingenieuren, Architekten und Spezialisten zusammen, die technische Expertise und Kenntnisse des afrikanischen Geländes mitbringen."
+        },
+        "zh": {
+          "t": "专家团队",
+          "d": "与我们的工程师、建筑师和专家合作，他们带来技术专长和对非洲地形的深入了解。"
+        }
+      },
+      {
+        "fr": {
+          "t": "Vision Long Terme",
+          "d": "GNAH pense à long terme. Nos collaborations sont construites sur la durée avec une vision claire du développement continental africain."
+        },
+        "en": {
+          "t": "Long-Term Vision",
+          "d": "GNAH thinks long-term. Our collaborations are built to last with a clear vision of African continental development."
+        },
+        "es": {
+          "t": "Visión a Largo Plazo",
+          "d": "GNAH piensa a largo plazo. Nuestras colaboraciones están construidas para durar con una visión clara del desarrollo continental africano."
+        },
+        "de": {
+          "t": "Langfristige Vision",
+          "d": "GNAH denkt langfristig. Unsere Kooperationen sind auf Dauer ausgelegt mit einer klaren Vision der afrikanischen kontinentalen Entwicklung."
+        },
+        "zh": {
+          "t": "长远愿景",
+          "d": "GNAH着眼长远。我们的合作建立在持久的基础上，对非洲大陆发展有着清晰的愿景。"
+        }
+      }
+    ],
+    "collabTypes": {
+      "fr": [
+        "Partenariat technique",
+        "Partenariat financier",
+        "Partenariat commercial",
+        "Consortium de projet",
+        "Fournisseur de matériaux",
+        "Consultant spécialisé",
+        "Autre"
+      ],
+      "en": [
+        "Technical partnership",
+        "Financial partnership",
+        "Commercial partnership",
+        "Project consortium",
+        "Materials supplier",
+        "Specialised consultant",
+        "Other"
+      ],
+      "es": [
+        "Asociación técnica",
+        "Asociación financiera",
+        "Asociación comercial",
+        "Consorcio de proyecto",
+        "Proveedor de materiales",
+        "Consultor especializado",
+        "Otro"
+      ],
+      "de": [
+        "Technische Partnerschaft",
+        "Finanzielle Partnerschaft",
+        "Kommerzielle Partnerschaft",
+        "Projektkonsortium",
+        "Materiallieferant",
+        "Spezialisierter Berater",
+        "Sonstiges"
+      ]
+    },
+    "expertiseList": {
+      "fr": [
+        "Construction & BTP",
+        "Finance & Investissement",
+        "Agriculture & Technologie",
+        "Énergie Renouvelable",
+        "Infrastructure Publique",
+        "Mines & Ressources",
+        "Immobilier",
+        "Logistique & Transport"
+      ],
+      "en": [
+        "Construction & Civil Engineering",
+        "Finance & Investment",
+        "Agriculture & Technology",
+        "Renewable Energy",
+        "Public Infrastructure",
+        "Mining & Resources",
+        "Real Estate",
+        "Logistics & Transport"
+      ],
+      "es": [
+        "Construcción e Ingeniería Civil",
+        "Finanzas e Inversión",
+        "Agricultura y Tecnología",
+        "Energía Renovable",
+        "Infraestructura Pública",
+        "Minería y Recursos",
+        "Inmobiliaria",
+        "Logística y Transporte"
+      ],
+      "de": [
+        "Bau & Tiefbau",
+        "Finanzen & Investitionen",
+        "Landwirtschaft & Technologie",
+        "Erneuerbare Energien",
+        "Öffentliche Infrastruktur",
+        "Bergbau & Ressourcen",
+        "Immobilien",
+        "Logistik & Transport"
+      ]
+    },
+    "processSteps": {
+      "fr": [
+        {
+          "n": "01",
+          "t": "Analyse",
+          "d": "Étude de faisabilité, évaluation des risques et opportunités de votre projet."
+        },
+        {
+          "n": "02",
+          "t": "Structuration",
+          "d": "Mise en place du montage financier et technique le plus adapté."
+        },
+        {
+          "n": "03",
+          "t": "Partenariat",
+          "d": "Connexion avec nos partenaires techniques et financiers mondiaux."
+        },
+        {
+          "n": "04",
+          "t": "Réalisation",
+          "d": "Suivi rigoureux et livraison dans les délais et standards définis."
+        }
+      ],
+      "en": [
+        {
+          "n": "01",
+          "t": "Analysis",
+          "d": "Feasibility study, risk assessment and opportunity evaluation of your project."
+        },
+        {
+          "n": "02",
+          "t": "Structuring",
+          "d": "Setting up the most appropriate financial and technical arrangement."
+        },
+        {
+          "n": "03",
+          "t": "Partnership",
+          "d": "Connection with our global technical and financial partners."
+        },
+        {
+          "n": "04",
+          "t": "Delivery",
+          "d": "Rigorous monitoring and delivery within defined deadlines and standards."
+        }
+      ],
+      "es": [
+        {
+          "n": "01",
+          "t": "Análisis",
+          "d": "Estudio de viabilidad, evaluación de riesgos y oportunidades de su proyecto."
+        },
+        {
+          "n": "02",
+          "t": "Estructuración",
+          "d": "Establecimiento del montaje financiero y técnico más adecuado."
+        },
+        {
+          "n": "03",
+          "t": "Asociación",
+          "d": "Conexión con nuestros socios técnicos y financieros mundiales."
+        },
+        {
+          "n": "04",
+          "t": "Realización",
+          "d": "Seguimiento riguroso y entrega en los plazos y estándares definidos."
+        }
+      ],
+      "de": [
+        {
+          "n": "01",
+          "t": "Analyse",
+          "d": "Machbarkeitsstudie, Risikobewertung und Chancenanalyse Ihres Projekts."
+        },
+        {
+          "n": "02",
+          "t": "Strukturierung",
+          "d": "Aufstellung der am besten geeigneten finanziellen und technischen Lösung."
+        },
+        {
+          "n": "03",
+          "t": "Partnerschaft",
+          "d": "Verbindung mit unseren weltweiten technischen und finanziellen Partnern."
+        },
+        {
+          "n": "04",
+          "t": "Umsetzung",
+          "d": "Strenge Überwachung und Lieferung innerhalb definierter Fristen und Standards."
+        }
+      ]
+    },
+    "contactSubjects": {
+      "fr": [
+        "Demande d'information",
+        "Réservation villa",
+        "Investissement",
+        "Partenariat",
+        "Collaboration",
+        "Autre"
+      ],
+      "en": [
+        "Information request",
+        "Villa booking",
+        "Investment",
+        "Partnership",
+        "Collaboration",
+        "Other"
+      ],
+      "es": [
+        "Solicitud de información",
+        "Reserva de villa",
+        "Inversión",
+        "Asociación",
+        "Colaboración",
+        "Otro"
+      ],
+      "de": [
+        "Informationsanfrage",
+        "Villabuchung",
+        "Investition",
+        "Partnerschaft",
+        "Zusammenarbeit",
+        "Sonstiges"
+      ]
+    }
   },
   "services": [
     {
@@ -1561,6 +1899,7 @@
   },
   "companies": [
     {
+      "active": true,
       "name": "Terratransport & Industrie Mobile",
       "logo": "/Images/entreprises/logo-terratransport.png",
       "sector": {
@@ -1570,18 +1909,18 @@
         "de": "Transport & Logistik",
         "zh": "运输与物流"
       },
+      "country": "Sénégal",
+      "website": "https://www.terratransport-sa.com",
       "desc": {
         "fr": "Terratransport & Industrie Mobile est spécialisée dans la commercialisation de poids lourds et la gestion de flottes de camions. Solutions de transport intermodal et logistique pour l'Afrique et l'Asie.",
         "en": "Terratransport & Industrie Mobile specialises in heavy truck commercialisation and fleet management. Intermodal transport and logistics solutions for Africa and Asia.",
         "es": "Terratransport & Industrie Mobile está especializada en la comercialización de camiones pesados y la gestión de flotas. Soluciones de transporte intermodal para África y Asia.",
         "de": "Terratransport & Industrie Mobile ist auf die Vermarktung von Schwerlastfahrzeugen und Flottenmanagement spezialisiert. Intermodale Transport- und Logistiklösungen für Afrika und Asien.",
         "zh": "Terratransport & Industrie Mobile专门从事重型卡车销售和车队管理。为非洲和亚洲提供多式联运和物流解决方案。"
-      },
-      "website": "https://www.terratransport-sa.com",
-      "country": "Sénégal",
-      "active": true
+      }
     },
     {
+      "active": true,
       "name": "AzaRatti 1 of 1",
       "logo": "/Images/entreprises/logo-azaratti1of1.png",
       "sector": {
@@ -1591,18 +1930,18 @@
         "de": "Mode & Luxus",
         "zh": "时尚与奢侈品"
       },
+      "country": "Sénégal",
+      "website": "https://www.azaratti1of1.com",
       "desc": {
         "fr": "AzaRatti 1 of 1 est une marque de mode africaine de luxe spécialisée dans la création de vestes et pièces vestimentaires en édition ultra-limitée. Chaque pièce est unique, artisanale et incarne l'excellence africaine contemporaine.",
         "en": "AzaRatti 1 of 1 is an African luxury fashion brand specialising in ultra-limited edition jackets and clothing pieces. Each piece is unique, handcrafted and embodies contemporary African excellence.",
         "es": "AzaRatti 1 of 1 es una marca de moda de lujo africana especializada en chaquetas y prendas de edición ultra-limitada. Cada pieza es única, artesanal y encarna la excelencia africana contemporánea.",
         "de": "AzaRatti 1 of 1 ist eine afrikanische Luxusmodemarke, spezialisiert auf ultrastreng limitierte Jacken. Jedes Stück ist einzigartig und handgefertigt.",
         "zh": "AzaRatti 1 of 1是非洲奢侈时尚品牌，专注于超限量版夹克和服装。每件作品都是独一无二的手工艺品。"
-      },
-      "website": "https://www.azaratti1of1.com",
-      "country": "Sénégal",
-      "active": true
+      }
     },
     {
+      "active": true,
       "name": "AzaRatti",
       "logo": "/Images/entreprises/logo-azaratti.png",
       "sector": {
@@ -1612,20 +1951,20 @@
         "de": "Lebensmittel & Handel",
         "zh": "农产品与贸易"
       },
+      "country": "Sénégal",
+      "website": "https://www.azaratti.com",
       "desc": {
         "fr": "AzaRatti est spécialisée dans la vente et la distribution de riz naturel de la meilleure qualité. Un produit authentique, cultivé avec soin et sélectionné selon les plus hauts standards nutritionnels pour les marchés africains et internationaux.",
         "en": "AzaRatti specialises in the sale and distribution of the finest quality natural rice. An authentic product, carefully cultivated and selected to the highest nutritional standards.",
         "es": "AzaRatti está especializada en la venta y distribución de arroz natural de la mejor calidad para los mercados africanos e internacionales.",
         "de": "AzaRatti ist auf den Verkauf und Vertrieb von Natureis höchster Qualität spezialisiert. Ein authentisches Produkt nach höchsten Ernährungsstandards.",
         "zh": "AzaRatti专注于销售和分销最优质的天然大米。经过精心种植，按照最高营养标准精选。"
-      },
-      "website": "https://www.azaratti.com",
-      "country": "Sénégal",
-      "active": true
+      }
     }
   ],
   "projects": [
     {
+      "active": true,
       "category": "Immobilier",
       "img": "/Images/yaye-dia/cite-vue-aerienne.jpg",
       "title": {
@@ -1641,10 +1980,10 @@
       "waMsg": {
         "fr": "Bonjour, je suis intéressé(e) par la Résidence Yaye Dia.",
         "en": "Hello, I am interested in the Yaye Dia Residence."
-      },
-      "active": true
+      }
     },
     {
+      "active": true,
       "category": "Infrastructure",
       "img": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&q=85",
       "title": {
@@ -1660,10 +1999,10 @@
       "waMsg": {
         "fr": "Bonjour, je suis intéressé(e) par le Port de Dabou.",
         "en": "Hello, I am interested in the Dabou Port."
-      },
-      "active": true
+      }
     },
     {
+      "active": true,
       "category": "Infrastructure",
       "img": "https://images.unsplash.com/photo-1545987796-200677ee1011?w=600&q=85",
       "title": {
@@ -1679,8 +2018,7 @@
       "waMsg": {
         "fr": "Bonjour, je m'intéresse à l'autoroute Abuja-Lagos.",
         "en": "Hello, I am interested in the Abuja-Lagos highway."
-      },
-      "active": true
+      }
     }
   ],
   "gallery": [
@@ -1830,7 +2168,7 @@
     },
     {
       "cat": "plans",
-      "src": "/Images/yaye-dia/villa-f4pp-plan.jpg",
+      "src": "/Images/yaye-dia/villa-f4pp-plan2.jpg",
       "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
       "fr": "Plan 3D F4 Plein Pied — Composition",
       "en": "F4 Single-Story 3D Plan — Layout",
@@ -1857,7 +2195,7 @@
     },
     {
       "cat": "plans",
-      "src": "/Images/yaye-dia/villa-f4duplex-plan.jpg",
+      "src": "/Images/yaye-dia/villa-f4duplex.jpg",
       "fallback": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=85",
       "fr": "Plan 3D F4 Duplex — RDC + Étage",
       "en": "F4 Duplex 3D Plan — Ground + Upper floor",

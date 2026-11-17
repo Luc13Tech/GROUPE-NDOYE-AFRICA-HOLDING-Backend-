@@ -15,13 +15,13 @@ export function invalidateContentCache() {
   cache = null;
 }
 
-const active = () => ({ active: true });
+const active = () => ({ active: true, deletedAt: null });
 const sorted = { order: 1, createdAt: 1 };
 
 /** Forme publique : sans dates internes, ordre, état ni identifiants Cloudinary. */
 function publicShape(doc, drop = []) {
   const o = doc.toJSON();
-  for (const k of ['createdAt', 'updatedAt', 'order', 'active', ...drop]) delete o[k];
+  for (const k of ['createdAt', 'updatedAt', 'order', 'active', 'deletedAt', 'seedKey', ...drop]) delete o[k];
   for (const k of Object.keys(o)) if (k.endsWith('PublicId')) delete o[k];
   return o;
 }

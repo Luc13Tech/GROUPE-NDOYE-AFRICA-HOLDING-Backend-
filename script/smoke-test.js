@@ -1,10 +1,12 @@
-// Vérifie un backend DÉPLOYÉ : disponibilité, contenu, en-têtes de sécurité, CORS, protection de l'admin.
+// Vérifie un backend DÉPLOYÉ : disponibilité, contenu, en-têtes de sécurité, CORS, espace et protection de l'admin.
 //   npm run smoke-test -- https://api.groupendoyeafrica.com
 // Option : ADMIN_EMAIL + ADMIN_PASSWORD dans l'environnement pour tester aussi la connexion (lecture seule).
 import 'dotenv/config';
 
 const BASE = (process.argv[2] || process.env.BASE_URL || 'http://localhost:5000').replace(/\/+$/, '');
+// ORIGIN : le site public (lecture seule) ; ADMIN : l'administration, servie par l'API elle-même.
 const ORIGIN = (process.env.TEST_ORIGIN || (process.env.FRONTEND_ORIGIN || 'https://groupendoyeafrica.com').split(',')[0]).trim().replace(/\/+$/, '');
+const ADMIN = new URL(BASE).origin;
 
 const rows = [];
 let failures = 0;
@@ -29,7 +31,7 @@ const cookiesOf = (res) => {
 };
 
 async function main() {
-  console.log(`Test de ${BASE} (origine simulée : ${ORIGIN})\n`);
+  console.log(`Test de ${BASE} (site : ${ORIGIN}, administration : ${ADMIN})\n`);
 
   // 1. Santé
   const t0 = Date.now();
@@ -54,6 +56,7 @@ async function main() {
     ['Vidéos', n(content.videos), 4],
     ['Photos de galerie', n(content.gallery), 28],
   ];
+  check(Boolean(content.blocks?.collabBenefits && content.blocks?.contactSubjects), 'Nouveaux blocs (collaboration, contact) présents');
   for (const [label, got, want] of expected) {
     warn(got === want, `${label} : ${got}`, got === want ? '' : `attendu ${want} après le chargement initial (normal si modifié depuis l'admin)`);
   }
@@ -71,12 +74,21 @@ async function main() {
   res = await call('/api/content', { headers: { Origin: ORIGIN } });
   check(res.headers.get('access-control-allow-origin') === ORIGIN, 'CORS : origine du site autorisée', res.headers.get('access-control-allow-origin') || 'absent');
 
-  // 5. Protection de l'administration
-  res = await call('/api/admin/overview', { headers: { Origin: ORIGIN } });
+  // 5. Espace d'administration et protection
+  res = await call('/');
+  const page = await res.text();
+  check(res.status === 200 && page.includes('id="app"'), 'Administration servie à la racine', `reçu ${res.status}`);
+  check((res.headers.get('content-security-policy') || '').includes("script-src 'self'"), 'Politique CSP stricte sur l’administration');
+  check((res.headers.get('x-robots-tag') || '').includes('noindex'), 'Administration non indexée (X-Robots-Tag)');
+  res = await call('/robots.txt');
+  check((await res.text()).includes('Disallow: /'), 'robots.txt : tout est exclu des moteurs');
+  res = await call('/api/admin/overview', { headers: { Origin: ADMIN } });
   check(res.status === 401, 'Admin sans session → 401', `reçu ${res.status}`);
   res = await call('/api/auth/login', { method: 'POST', body: { email: 'x@x.xx', password: 'x' } });
-  check(res.status === 403, 'Écriture sans origine autorisée → 403', `reçu ${res.status}`);
-  res = await call('/api/auth/login', { method: 'POST', headers: { Origin: ORIGIN }, body: { email: 'inconnu@exemple.com', password: 'mauvais-mot-de-passe' } });
+  check(res.status === 403, 'Écriture sans origine → 403', `reçu ${res.status}`);
+  res = await call('/api/auth/login', { method: 'POST', headers: { Origin: ORIGIN }, body: { email: 'x@x.xx', password: 'x' } });
+  check(res.status === 403, 'Écriture depuis le site public → 403', `reçu ${res.status}`);
+  res = await call('/api/auth/login', { method: 'POST', headers: { Origin: ADMIN }, body: { email: 'inconnu@exemple.com', password: 'mauvais-mot-de-passe' } });
   check(res.status === 401, 'Mauvais identifiants → 401', `reçu ${res.status}`);
   res = await call('/api/inexistant');
   check(res.status === 404, 'Route inconnue → 404');
@@ -84,7 +96,7 @@ async function main() {
   // 6. Connexion réelle (optionnelle, lecture seule)
   const { ADMIN_EMAIL, ADMIN_PASSWORD } = process.env;
   if (ADMIN_EMAIL && ADMIN_PASSWORD) {
-    res = await call('/api/auth/login', { method: 'POST', headers: { Origin: ORIGIN }, body: { email: ADMIN_EMAIL, password: ADMIN_PASSWORD } });
+    res = await call('/api/auth/login', { method: 'POST', headers: { Origin: ADMIN }, body: { email: ADMIN_EMAIL, password: ADMIN_PASSWORD } });
     const login = await res.json().catch(() => ({}));
     check(res.status === 200 && login.csrfToken, 'Connexion administrateur', `statut ${res.status}`);
     if (res.status === 200) {
@@ -92,11 +104,11 @@ async function main() {
       const setCookie = (res.headers.getSetCookie?.() ?? []).join(' ').toLowerCase();
       check(setCookie.includes('httponly'), 'Cookie de session HttpOnly');
       if (BASE.startsWith('https://')) check(setCookie.includes('secure'), 'Cookie de session Secure');
-      res = await call('/api/admin/overview', { headers: { Origin: ORIGIN, Cookie: cookie } });
+      res = await call('/api/admin/overview', { headers: { Origin: ADMIN, Cookie: cookie } });
       check(res.status === 200, 'Admin avec session → 200', `reçu ${res.status}`);
-      res = await call('/api/admin/ads/reorder', { method: 'PUT', headers: { Origin: ORIGIN, Cookie: cookie }, body: { ids: ['0'.repeat(24)] } });
+      res = await call('/api/admin/ads/reorder', { method: 'PUT', headers: { Origin: ADMIN, Cookie: cookie }, body: { ids: ['0'.repeat(24)] } });
       check(res.status === 403, 'Écriture sans jeton CSRF → 403', `reçu ${res.status}`);
-      res = await call('/api/auth/logout', { method: 'POST', headers: { Origin: ORIGIN, Cookie: cookie } });
+      res = await call('/api/auth/logout', { method: 'POST', headers: { Origin: ADMIN, Cookie: cookie } });
       check(res.status === 200, 'Déconnexion');
     }
   } else {

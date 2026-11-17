@@ -41,11 +41,14 @@ export function clearSessionCookie(res) {
   res.clearCookie(COOKIE_NAME, cookieOptions());
 }
 
-/** Toute requête qui modifie des données doit venir d'une origine autorisée (anti-CSRF, niveau 1). */
+/**
+ * Toute requête qui modifie des données doit venir de l'espace d'administration,
+ * servi par cette API sur sa propre adresse (anti-CSRF, niveau 1). Le site public ne fait que lire.
+ */
 export function originGuard(req, res, next) {
   if (SAFE_METHODS.has(req.method)) return next();
   const origin = req.get('origin');
-  if (!origin || !env.origins.includes(origin)) return next(new HttpError(403, 'Origine non autorisée.'));
+  if (!origin || origin !== env.publicOrigin) return next(new HttpError(403, 'Origine non autorisée.'));
   return next();
 }
 

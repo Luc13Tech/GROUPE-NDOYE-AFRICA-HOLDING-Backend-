@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
+import { GALLERY_CATS } from '../utils/enums.js';
 import { assetUrl, baseOptions, orderActive, publicIdField, safeText } from './_common.js';
 
-export const GALLERY_CATS = ['overview', 'exterior', 'interior', 'plans', 'buildings', 'amenities'];
 
 const schema = new mongoose.Schema(
   {

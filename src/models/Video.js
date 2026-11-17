@@ -1,11 +1,12 @@
 import mongoose from 'mongoose';
+import { VIDEO_PLATFORMS } from '../utils/enums.js';
 import { assetUrl, baseOptions, langBlock, linkField, orderActive, publicIdField } from './_common.js';
 
 const keys = ['title', 'desc'];
 
 const schema = new mongoose.Schema(
   {
-    platform: { type: String, enum: ['youtube', 'tiktok', 'facebook', 'instagram'], required: true },
+    platform: { type: String, enum: VIDEO_PLATFORMS, required: true },
     url: linkField({ required: true }),
     thumbnail: assetUrl(),
     thumbnailPublicId: publicIdField,

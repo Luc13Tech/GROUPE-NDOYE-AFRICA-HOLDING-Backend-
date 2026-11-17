@@ -14,6 +14,8 @@ export const env = {
     .split(',')
     .map((s) => s.trim().replace(/\/+$/, ''))
     .filter(Boolean),
+  // Adresse publique de l'API : elle sert aussi l'espace d'administration (même origine que l'API).
+  publicOrigin: (get('API_PUBLIC_ORIGIN') || (isProd ? 'https://api.groupendoyeafrica.com' : `http://localhost:${Number(get('PORT')) || 5000}`)).replace(/\/+$/, ''),
   cookieSameSite: ['strict', 'lax', 'none'].includes(sameSiteRaw) ? sameSiteRaw : 'strict',
   cloudinary: {
     cloudName: get('CLOUDINARY_CLOUD_NAME'),
@@ -46,7 +48,7 @@ export function assertEnv(keys) {
     console.error('[config] JWT_SECRET doit contenir au moins 32 caractères.');
     process.exit(1);
   }
-  if (keys.includes('FRONTEND_ORIGIN') && isProd && env.origins.some((o) => !o.startsWith('https://'))) {
+  if (keys.includes('FRONTEND_ORIGIN') && isProd && [...env.origins, env.publicOrigin].some((o) => !o.startsWith('https://'))) {
     console.error('[config] En production, FRONTEND_ORIGIN doit utiliser https://.');
     process.exit(1);
   }

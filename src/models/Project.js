@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
+import { PROJECT_CATEGORIES } from '../utils/enums.js';
 import { assetUrl, baseOptions, langMap, orderActive, publicIdField } from './_common.js';
 
-export const PROJECT_CATEGORIES = ['Immobilier', 'Infrastructure', 'Agriculture', 'Énergie', 'Autre'];
 
 const schema = new mongoose.Schema(
   {

@@ -18,6 +18,10 @@ export const baseOptions = {
 export const orderActive = {
   order: { type: Number, default: 0, min: 0, max: 100000 },
   active: { type: Boolean, default: true },
+  // Corbeille : un élément « supprimé » est seulement masqué. Il reste restaurable, rien n'est effacé.
+  deletedAt: { type: Date, default: null, index: true },
+  // Repère interne posé par la synchronisation avec le site (jamais affiché, non modifiable par l'admin).
+  seedKey: { type: String, maxlength: 400, index: true },
 };
 
 /** Texte court assaini (pas de schéma javascript:, longueur bornée). */

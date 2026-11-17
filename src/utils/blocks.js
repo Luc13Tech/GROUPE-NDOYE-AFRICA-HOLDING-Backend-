@@ -17,6 +17,11 @@ export const BLOCK_SHAPES = {
   archPhilosophy: 'object',
   materials: 'object',
   yayeSlides: 'array',
+  collabBenefits: 'array',
+  collabTypes: 'object',
+  expertiseList: 'object',
+  processSteps: 'object',
+  contactSubjects: 'object',
 };
 
 export const BLOCK_KEYS = Object.keys(BLOCK_SHAPES);

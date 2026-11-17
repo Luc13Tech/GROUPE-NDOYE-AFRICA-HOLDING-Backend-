@@ -1,0 +1,15 @@
+# Dépendances
+node_modules/
+
+# Secrets : ne JAMAIS envoyer ces fichiers sur GitHub
+.env
+.env.*
+!.env.example
+
+# Sauvegardes locales (contiennent les données du site)
+backups/
+
+# Divers
+*.log
+.DS_Store
+Thumbs.db

@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
+import { SERVICE_ICONS } from '../utils/enums.js';
 import { baseOptions, langBlock, orderActive } from './_common.js';
 
-export const SERVICE_ICONS = ['building', 'layers', 'chart', 'road', 'leaf', 'zap', 'star', 'globe', 'home', 'heart'];
 const keys = ['title', 'desc'];
 
 const schema = new mongoose.Schema(
