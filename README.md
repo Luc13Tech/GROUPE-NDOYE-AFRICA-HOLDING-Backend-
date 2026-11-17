@@ -50,6 +50,7 @@ Runtime **Node** · Build `npm install` · Start `npm start` · **Health Check P
 | `COOKIE_SAMESITE` | `strict` |
 | `CLOUDINARY_CLOUD_NAME` / `CLOUDINARY_API_KEY` / `CLOUDINARY_API_SECRET` | depuis Cloudinary |
 | `ADMIN_EMAIL` / `ADMIN_PASSWORD` | **seulement pour créer le premier compte** (voir point 5), à retirer ensuite |
+| `ADMIN_RESET` | `true` **seulement** pour réinitialiser le mot de passe du compte `ADMIN_EMAIL` (ou le créer si d'autres comptes existent), à retirer ensuite |
 
 ## 4. Sous-domaine `api.groupendoyeafrica.com`
 Render → **Settings → Custom Domains** : `api.groupendoyeafrica.com`, puis chez le gestionnaire DNS un **CNAME** `api` → `<service>.onrender.com`. Le certificat HTTPS est automatique.
@@ -62,6 +63,10 @@ Rien à lancer à la main :
 3. Connectez-vous sur <https://api.groupendoyeafrica.com/>, puis **retirez `ADMIN_PASSWORD`** des variables Render.
 
 Les journaux Render affichent le résultat : `[sync] Synchronisation terminée : {…}`.
+
+**Mot de passe oublié ou « Identifiants invalides »** : dans Render, renseignez `ADMIN_EMAIL`, un nouveau `ADMIN_PASSWORD`
+et `ADMIN_RESET=true`, enregistrez (le service redémarre), connectez-vous, puis retirez `ADMIN_PASSWORD` et `ADMIN_RESET`.
+Les journaux Render indiquent ce qui a été fait (lignes `[admin] …`).
 
 ## 6. Mettre à jour le contenu intégré au site
 Après une modification de `src/data/siteData.js` dans le dépôt du site :

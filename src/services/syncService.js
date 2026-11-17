@@ -89,27 +89,54 @@ export async function syncContent({ log = console.log, dryRun = false } = {}) {
   return report;
 }
 
+const mask = (email) => email.replace(/^(.{2}).*(@.*)$/, '$1***$2');
+
 /**
- * Crée le premier administrateur à partir de ADMIN_EMAIL et ADMIN_PASSWORD (variables Render),
- * uniquement s'il n'en existe encore aucun. Ne modifie jamais un compte existant.
+ * Compte administrateur depuis les variables Render ADMIN_EMAIL et ADMIN_PASSWORD :
+ *  - aucun administrateur en base → le compte est créé ;
+ *  - ADMIN_RESET=true → le compte ADMIN_EMAIL est créé ou son mot de passe réinitialisé
+ *    (déblocage compris, autres sessions déconnectées) ;
+ *  - sinon les comptes existants ne sont jamais modifiés.
+ * Retirez ADMIN_PASSWORD (et ADMIN_RESET) une fois connecté.
  */
 export async function bootstrapAdmin({ log = console.log } = {}) {
-  if ((await AdminUser.estimatedDocumentCount()) > 0) return false;
   const { email, password } = env.admin;
+  const reset = process.env.ADMIN_RESET === 'true';
+  const admins = await AdminUser.find().select('email').lean();
+
   if (!email || !password) {
-    log('[admin] Aucun administrateur. Renseignez ADMIN_EMAIL et ADMIN_PASSWORD dans Render, puis redémarrez.');
+    if (!admins.length) log('[admin] Aucun administrateur. Renseignez ADMIN_EMAIL et ADMIN_PASSWORD dans Render, puis redémarrez.');
     return false;
   }
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
-    log('[admin] ADMIN_EMAIL invalide : administrateur non créé.');
+    log('[admin] ADMIN_EMAIL invalide : aucun compte créé ni modifié.');
     return false;
   }
   const weak = checkPasswordStrength(password);
   if (weak.length) {
-    log(`[admin] ADMIN_PASSWORD refusé (${weak.join(', ')}) : administrateur non créé.`);
+    log(`[admin] ADMIN_PASSWORD refusé (${weak.join(', ')}) : aucun compte créé ni modifié.`);
+    return false;
+  }
+
+  const existing = await AdminUser.findOne({ email }).select('+passwordHash');
+  if (existing && reset) {
+    existing.passwordHash = await bcrypt.hash(password, 12);
+    existing.tokenVersion += 1;
+    existing.failedAttempts = 0;
+    existing.lockUntil = null;
+    await existing.save();
+    log(`[admin] Mot de passe réinitialisé pour ${mask(email)}. Retirez maintenant ADMIN_PASSWORD et ADMIN_RESET des variables Render.`);
+    return true;
+  }
+  if (existing) {
+    log(`[admin] Le compte ${mask(email)} existe déjà : mot de passe inchangé. Pour le réinitialiser, ajoutez ADMIN_RESET=true puis redémarrez.`);
+    return false;
+  }
+  if (admins.length && !reset) {
+    log(`[admin] ${admins.length} autre(s) compte(s) existe(nt) déjà (${admins.map((a) => mask(a.email)).join(', ')}) : ${mask(email)} non créé. Ajoutez ADMIN_RESET=true pour le créer.`);
     return false;
   }
   await AdminUser.create({ email, passwordHash: await bcrypt.hash(password, 12) });
-  log(`[admin] Administrateur créé : ${email}. Retirez maintenant ADMIN_PASSWORD des variables Render.`);
+  log(`[admin] Administrateur créé : ${mask(email)}. Retirez maintenant ADMIN_PASSWORD${reset ? ' et ADMIN_RESET' : ''} des variables Render.`);
   return true;
 }
