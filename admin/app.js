@@ -227,6 +227,7 @@
     img: 'Image', icon: 'Icône', val: 'Valeur', value: 'Montant', range: 'Fourchette', type: 'Type', country: 'Pays',
     n: 'Numéro', items: 'Éléments', intro: 'Introduction', marble: 'Marbre', name: 'Nom', short: 'Sigle',
     phone: 'Téléphone', whatsapp: 'WhatsApp (chiffres uniquement)', email: 'E-mail', address_fr: 'Adresse',
+    lat: 'Latitude du bureau (carte)', lng: 'Longitude du bureau (carte)', mapsUrl: 'Lien Google Maps du bureau',
     social: 'Réseaux sociaux', waMsg: 'Message WhatsApp', facebook: 'Facebook', instagram: 'Instagram',
     tiktok: 'TikTok', threads: 'Threads', linkedin: 'LinkedIn',
   };

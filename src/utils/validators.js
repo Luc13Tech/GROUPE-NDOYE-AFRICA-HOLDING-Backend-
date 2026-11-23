@@ -69,7 +69,7 @@ export function parseActive(body) {
 
 function parseSite(data) {
   const issues = [];
-  const allowed = ['name', 'short', 'phone', 'whatsapp', 'email', 'address_fr', 'social', 'waMsg'];
+  const allowed = ['name', 'short', 'phone', 'whatsapp', 'email', 'address_fr', 'lat', 'lng', 'mapsUrl', 'social', 'waMsg'];
   for (const k of Object.keys(data)) if (!allowed.includes(k)) issues.push({ path: k, message: 'Champ non autorisé.' });
 
   const text = (k, max, required = true) => {
@@ -84,6 +84,17 @@ function parseSite(data) {
   if (typeof data.phone !== 'string' || !/^\+?[0-9 ()\-.]{6,25}$/.test(data.phone)) issues.push({ path: 'phone', message: 'Téléphone invalide.' });
   if (typeof data.whatsapp !== 'string' || !/^[0-9]{6,20}$/.test(data.whatsapp)) issues.push({ path: 'whatsapp', message: 'Numéro WhatsApp invalide (chiffres uniquement).' });
   if (typeof data.email !== 'string' || !EMAIL_RE.test(data.email) || data.email.length > 200) issues.push({ path: 'email', message: 'E-mail invalide.' });
+
+  // Position du bureau sur la carte (facultatif) et lien Google Maps.
+  const coord = (k, limit) => {
+    if (data[k] === undefined || data[k] === null) return;
+    if (typeof data[k] !== 'number' || !Number.isFinite(data[k]) || Math.abs(data[k]) > limit) issues.push({ path: k, message: `Coordonnée invalide (entre -${limit} et ${limit}).` });
+  };
+  coord('lat', 90);
+  coord('lng', 180);
+  if (data.mapsUrl !== undefined && data.mapsUrl !== '' && (!isSafeLink(data.mapsUrl) || !String(data.mapsUrl).startsWith('https://') || data.mapsUrl.length > 600)) {
+    issues.push({ path: 'mapsUrl', message: 'Lien https invalide.' });
+  }
 
   if (data.social !== undefined) {
     if (!isPlainObject(data.social)) issues.push({ path: 'social', message: 'Objet attendu.' });
