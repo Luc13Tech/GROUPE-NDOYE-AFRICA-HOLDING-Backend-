@@ -69,7 +69,7 @@ export function parseActive(body) {
 
 function parseSite(data) {
   const issues = [];
-  const allowed = ['name', 'short', 'phone', 'whatsapp', 'email', 'address_fr', 'lat', 'lng', 'mapsUrl', 'social', 'waMsg'];
+  const allowed = ['name', 'short', 'phone', 'phoneFixed', 'whatsapp', 'email', 'address_fr', 'lat', 'lng', 'mapsUrl', 'social', 'waMsg'];
   for (const k of Object.keys(data)) if (!allowed.includes(k)) issues.push({ path: k, message: 'Champ non autorisé.' });
 
   const text = (k, max, required = true) => {
@@ -82,6 +82,9 @@ function parseSite(data) {
   text('short', 40, false);
   text('address_fr', 300);
   if (typeof data.phone !== 'string' || !/^\+?[0-9 ()\-.]{6,25}$/.test(data.phone)) issues.push({ path: 'phone', message: 'Téléphone invalide.' });
+  if (data.phoneFixed !== undefined && data.phoneFixed !== '' && (typeof data.phoneFixed !== 'string' || !/^\+?[0-9 ()\-.]{6,25}$/.test(data.phoneFixed))) {
+    issues.push({ path: 'phoneFixed', message: 'Téléphone fixe invalide.' });
+  }
   if (typeof data.whatsapp !== 'string' || !/^[0-9]{6,20}$/.test(data.whatsapp)) issues.push({ path: 'whatsapp', message: 'Numéro WhatsApp invalide (chiffres uniquement).' });
   if (typeof data.email !== 'string' || !EMAIL_RE.test(data.email) || data.email.length > 200) issues.push({ path: 'email', message: 'E-mail invalide.' });
 

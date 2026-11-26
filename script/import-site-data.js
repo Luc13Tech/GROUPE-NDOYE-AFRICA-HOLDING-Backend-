@@ -22,7 +22,7 @@ const d = await import(pathToFileURL(copy).href);
 fs.rmSync(tmp, { recursive: true, force: true });
 
 const without = (obj, ...keys) => Object.fromEntries(Object.entries(obj).filter(([k]) => !keys.includes(k)));
-const SITE_FIELDS = ['name', 'short', 'phone', 'whatsapp', 'email', 'address_fr', 'lat', 'lng', 'mapsUrl', 'social', 'waMsg'];
+const SITE_FIELDS = ['name', 'short', 'phone', 'phoneFixed', 'whatsapp', 'email', 'address_fr', 'lat', 'lng', 'mapsUrl', 'social', 'waMsg'];
 
 const seed = {
   blocks: {

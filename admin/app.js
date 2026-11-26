@@ -226,7 +226,7 @@
     t: 'Titre', d: 'Description', title: 'Titre', desc: 'Description', tag: 'Étiquette', sub: 'Sous-titre',
     img: 'Image', icon: 'Icône', val: 'Valeur', value: 'Montant', range: 'Fourchette', type: 'Type', country: 'Pays',
     n: 'Numéro', items: 'Éléments', intro: 'Introduction', marble: 'Marbre', name: 'Nom', short: 'Sigle',
-    phone: 'Téléphone', whatsapp: 'WhatsApp (chiffres uniquement)', email: 'E-mail', address_fr: 'Adresse',
+    phone: 'Téléphone (WhatsApp)', phoneFixed: 'Téléphone fixe', whatsapp: 'WhatsApp (chiffres uniquement)', email: 'E-mail', address_fr: 'Adresse',
     lat: 'Latitude du bureau (carte)', lng: 'Longitude du bureau (carte)', mapsUrl: 'Lien Google Maps du bureau',
     social: 'Réseaux sociaux', waMsg: 'Message WhatsApp', facebook: 'Facebook', instagram: 'Instagram',
     tiktok: 'TikTok', threads: 'Threads', linkedin: 'LinkedIn',
@@ -632,6 +632,13 @@
 
   async function viewBlock(key) {
     const block = await api(`/api/admin/blocks/${key}`);
+    // Coordonnées : le champ « Téléphone fixe » est proposé même s'il n'a jamais été rempli.
+    if (key === 'site' && block.data && !('phoneFixed' in block.data)) {
+      const withFixed = {};
+      for (const [k, v] of Object.entries(block.data)) { withFixed[k] = v; if (k === 'phone') withFixed.phoneFixed = '+221 33 838 43 50'; }
+      if (!('phoneFixed' in withFixed)) withFixed.phoneFixed = '+221 33 838 43 50';
+      block.data = withFixed;
+    }
     const editor = blockEditor(block.data);
     const save = h('button', { type: 'button', class: 'btn gold', onclick: () => guarded(save, async () => {
       await api(`/api/admin/blocks/${key}`, { method: 'PUT', body: { data: editor.value() } });
